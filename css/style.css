@@ -1,0 +1,2272 @@
+body {
+	margin: 0;
+	overflow-x: hidden;
+}
+
+/*FIRST PILLING*/
+
+.firstPilling {
+	width: 100vw;
+	height: 100vh;
+	background-image: url('../img/forest.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+}
+
+.subject {
+	width: 40%;
+	height: 30%;
+	margin-top: 30%;
+	margin-left: 7%;
+}
+
+.job {
+	font-size: 42px;
+	font-weight: bold;
+	color: #f5f5f5;
+	font-family: 'Source Sans Pro', sans-serif;
+	float: right;
+}
+
+.name {
+	font-size: 28px;
+	color: #f5f5f5;
+	font-family: 'Source Sans Pro', sans-serif;
+	float: right;
+	margin-top: 4%;
+}
+
+/*.name::before {
+	content: "";
+	background-color: #f5f5f5;
+	width: 24%;
+	height: 4px;
+	position: absolute;
+	left: 10.8%;
+	top: 40%;
+}
+
+.name::after {
+	content: "";
+	background-color: #f5f5f5;
+	width: 11%;
+	height: 4px;
+	position: absolute;
+	left: 36%;
+	top: 50%;
+}*/
+
+.slogan {
+	width: 19%;
+	height: 16%;
+	color: #f5f5f5;
+	font-size: 26px;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 40px;
+	margin-top: 55%;
+	margin-left: 16%;
+	background-color: black;
+	opacity: 0.7;
+	border: 2px solid #f5f5f5;
+	border-radius: 2%;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.slogan::before {
+	content: "A";
+	font-size: 26px;
+	font-family: 'Eagle Lake', cursive;
+	font-weight: bold;
+}
+
+
+/*SECOND PILLING*/
+
+.secondPilling {
+	width: 100vw;
+	height: 100vh;
+	background-color: #f5f5f5;
+	display: flex;
+}
+
+/*Page de gauche*/
+.secondLeft {
+	width: 49%;
+	height: 99%;
+	margin-right: 0.3%;
+	margin-left: 0.4%;
+	margin-top: 1%;
+	background-image: url('../img/stars.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.projectTitle {
+	width: 25%;
+	height: 25%;
+	background-color: transparent;
+	border: 3px solid #f5f5f5;
+	position: absolute;
+	color: #f5f5f5;
+	font-size: 21px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	margin-top: 20.5%;
+	margin-left: 39.5%;
+}
+
+.secondHexagon { 
+	width: 50px; 
+	height: 25px; 
+	background-color: #f5f5f5; 
+	position: relative; 
+	margin-top: 9%;
+	margin-left: 6%;
+	cursor: pointer;
+	text-align: center;
+	color: #2c3e50;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	padding-top: 3px;
+}
+
+.secondHexagon:hover {
+	opacity: 0.7;
+} 
+
+.secondHexagon:before { 
+	content: ""; 
+	position: absolute; 
+	top: -12px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-bottom: 12.5px solid #f5f5f5; 
+} 
+
+.secondHexagon:after { 
+	content: ""; 
+	position: absolute; 
+	bottom: -12.5px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent; 
+	border-top: 12.5px solid #f5f5f5; 
+}
+
+.projectSubtitle {
+	color: #f5f5f5;
+	width: 60%;
+    font-family: 'Poiret One', cursive;
+	font-size: 26px;
+	margin-top: 50%;
+	margin-left: 33%;
+	position: absolute;
+}
+
+/*Page de droite*/
+
+.github {
+	width: 30px;
+	height: 30px;
+	border: 0px;
+	background-image: url('../img/github-sign.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	margin-left: 47%;
+	margin-top: 10%;
+	cursor: pointer;
+	display: flex;
+}
+
+.secondRight {
+	width: 49%;
+	height: 99%;
+	margin-top: 1%;
+	background-color: #77919E;
+}
+
+.secondDescription {
+	width: 62%;
+	height: 75%;
+	background-color: transparent;
+	margin-top: 4%;
+	margin-left: 20%;
+	font-size: 18px;
+	line-height: 28px;
+	color: #2c3e50;
+}
+
+.description::before {
+	content: "C";
+	font-size: 35px;
+	font-weight: bold;
+    font-family: 'Eagle Lake', cursive;
+}
+
+.viewMore {
+	width: 50%;
+	height: 22%	;
+	border: 0px;
+	background-image: url('../img/prince.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	/*ox-shadow: 10px 8px 5px black;*/
+	font-size: 17px;
+	margin-left: 28%;
+	margin-top: 4%;
+	cursor: pointer;	
+}
+
+.viewMore:hover {
+	border-color: #f5f5f5;
+	color: #f5f5f5;
+}
+
+
+/*THIRD PILLING*/
+
+.thirdPilling {
+	width: 100vw;
+	height: 100vh;
+	background-color: #f5f5f5;
+	display: flex;
+}
+
+/*Page de gauche*/
+.thirdLeft {
+	width: 49%;
+	height: 99%;
+	margin-right: 0.3%;
+	margin-left: 0.4%;
+	margin-top: 1%;
+	background-image: url('../img/time1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.thirdHexagon { 
+	width: 50px; 
+	height: 25px; 
+	background-color: #f5f5f5; 
+	position: relative; 
+	margin-top: 9%;
+	margin-left: 6%;
+	cursor: pointer;
+	text-align: center;
+	color: #2c3e50;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	padding-top: 3px;
+}
+
+.thirdHexagon:hover {
+	opacity: 0.7;
+} 
+
+.thirdHexagon:before { 
+	content: ""; 
+	position: absolute; 
+	top: -12px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-bottom: 12.5px solid #f5f5f5; 
+} 
+
+.thirdHexagon:after { 
+	content: ""; 
+	position: absolute; 
+	bottom: -12.5px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-top: 12.5px solid #f5f5f5; 
+}
+
+.thirdProjectTitle {
+	width: 25%;
+	height: 25%;
+	background-color: transparent;
+	border: 3px solid #f5f5f5;
+	position: absolute;
+	color: #f5f5f5;
+	font-size: 21px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	margin-top: 20.5%;
+	margin-left: 39.5%;
+}
+
+.thirdProjectFilter {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.7;
+	position: absolute;
+}
+
+.thirdProjectSubtitle {
+	color: #f5f5f5;
+	width: 60%;
+    font-family: 'Poiret One', cursive;
+	font-size: 26px;
+	margin-top: 50%;
+	margin-left: 43%;
+	position: absolute;
+}
+
+/*Page de droite*/
+.thirdRight {
+	width: 49%;
+	height: 99%;
+	background-color: #77919E;
+	margin-top: 1%;
+}
+
+.github {
+	width: 30px;
+	height: 30px;
+	border: 0px;
+	background-image: url('../img/github-sign.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	margin-left: 47%;
+	margin-top: 10%;
+	cursor: pointer;
+	display: flex;
+}
+
+.thirdDescription {
+	width: 62%;
+	height: 75%;
+	background-color: transparent;
+	margin-top: 5%;
+	margin-left: 20%;
+	font-size: 18px;
+	line-height: 28px;
+	color: #2c3e50;
+}
+
+.thirdDescriptionP::before {
+	content: "A";
+	font-size: 35px;
+	font-weight: bold;
+    font-family: 'Eagle Lake', cursive;
+}
+
+.viewMorePomodoro {
+	width: 50%;
+	height: 22%	;
+	border: 0px;
+	background-image: url('../img/pomodoro.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #2c3e50;
+	font-size: 17px;
+	margin-left: 28%;
+	margin-top: 4%;
+	cursor: pointer;	
+}
+
+/*FOURTH PILLING*/
+
+.fourthPilling {
+	width: 100vw;
+	height: 100vh;
+	background-color: #f5f5f5;
+	display: flex;
+}
+
+/*Page de gauche*/
+.fourthLeft {
+	width: 49%;
+	height: 99%;
+	margin-right: 0.3%;
+	margin-left: 0.4%;
+	margin-top: 1%;
+	background-image: url('../img/cards.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.fourthHexagon { 
+	width: 50px; 
+	height: 25px; 
+	background-color: #f5f5f5; 
+	position: relative; 
+	margin-top: 9%;
+	margin-left: 6%;
+	cursor: pointer;
+	text-align: center;
+	color: #2c3e50;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	padding-top: 3px;
+}
+
+.fourthHexagon:hover {
+	opacity: 0.7;
+} 
+
+.fourthHexagon:before { 
+	content: ""; 
+	position: absolute; 
+	top: -12px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-bottom: 12.5px solid #f5f5f5; 
+} 
+
+.fourthHexagon:after { 
+	content: ""; 
+	position: absolute; 
+	bottom: -12.5px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-top: 12.5px solid #f5f5f5; 
+}
+
+.fourthProjectTitle {
+	width: 25%;
+	height: 25%;
+	background-color: transparent;
+	border: 3px solid #f5f5f5;
+	position: absolute;
+	color: #f5f5f5;
+	font-size: 21px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	margin-top: 20.5%;
+	margin-left: 39.5%;
+}
+
+.fourthProjectFilter {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.7;
+	position: absolute;
+}
+
+.fourthProjectSubtitle {
+	color: #f5f5f5;
+	width: 60%;
+    font-family: 'Poiret One', cursive;
+	font-size: 26px;
+	margin-top: 50%;
+	margin-left: 35%;
+	position: absolute;
+}
+
+/*Page de droite*/
+.fourthRight {
+	width: 49%;
+	height: 99%;
+	background-color: #77919E;
+	margin-top: 1%;
+}
+
+.github {
+	width: 30px;
+	height: 30px;
+	border: 0px;
+	background-image: url('../img/github-sign.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	margin-left: 47%;
+	margin-top: 10%;
+	cursor: pointer;
+	display: flex;
+}
+
+.fourthDescription {
+	width: 62%;
+	height: 75%;
+	background-color: transparent;
+	margin-top: 5%;
+	margin-left: 20%;
+	font-size: 18px;
+	line-height: 28px;
+	color: #2c3e50;
+}
+
+.fourthDescriptionP::before {
+	content: "L";
+	font-size: 35px;
+	font-weight: bold;
+    font-family: 'Eagle Lake', cursive;
+}
+
+.viewMoreMemory {
+	width: 50%;
+	height: 22%	;
+	border: 0px;
+	background-image: url('../img/memory.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #2c3e50;
+	font-size: 17px;
+	margin-left: 28%;
+	margin-top: 4%;
+	cursor: pointer;	
+}
+
+
+/*FIFTH PILLING*/
+
+.fifthPilling {
+	width: 100vw;
+	height: 100vh;
+	background-color: #f5f5f5;
+	display: flex;
+}
+
+/*Page de gauche*/
+.fifthLeft {
+	width: 49%;
+	height: 99%;
+	margin-right: 0.3%;
+	margin-left: 0.4%;
+	margin-top: 1%;
+	background-image: url('../img/sticky.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.fifthHexagon { 
+	width: 50px; 
+	height: 25px; 
+	background-color: #f5f5f5; 
+	position: relative; 
+	margin-top: 9%;
+	margin-left: 6%;
+	cursor: pointer;
+	text-align: center;
+	color: #2c3e50;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	padding-top: 3px;
+}
+
+.fifthHexagon:hover {
+	opacity: 0.7;
+} 
+
+.fifthHexagon:before { 
+	content: ""; 
+	position: absolute; 
+	top: -12px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-bottom: 12.5px solid #f5f5f5; 
+} 
+
+.fifthHexagon:after { 
+	content: ""; 
+	position: absolute; 
+	bottom: -12.5px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-top: 12.5px solid #f5f5f5; 
+}
+
+.fifthProjectTitle {
+	width: 25%;
+	height: 25%;
+	background-color: transparent;
+	border: 3px solid #f5f5f5;
+	position: absolute;
+	color: #f5f5f5;
+	font-size: 21px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	margin-top: 20.5%;
+	margin-left: 39.5%;
+}
+
+.fifthProjectFilter {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.7;
+	position: absolute;
+}
+
+.fifthProjectSubtitle {
+	color: #f5f5f5;
+	width: 60%;
+    font-family: 'Poiret One', cursive;
+	font-size: 26px;
+	margin-top: 50%;
+	margin-left: 35%;
+	position: absolute;
+}
+
+/*Page de droite*/
+.fifthRight {
+	width: 49%;
+	height: 99%;
+	background-color: #77919E;
+	margin-top: 1%;
+}
+
+.github {
+	width: 30px;
+	height: 30px;
+	border: 0px;
+	background-image: url('../img/github-sign.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	margin-left: 47%;
+	margin-top: 10%;
+	cursor: pointer;
+	display: flex;
+}
+
+.fifthDescription {
+	width: 62%;
+	height: 75%;
+	background-color: transparent;
+	margin-top: 5%;
+	margin-left: 20%;
+	font-size: 18px;
+	line-height: 28px;
+	color: #2c3e50;
+}
+
+.fifthDescriptionP::before {
+	content: "L";
+	font-size: 35px;
+	font-weight: bold;
+    font-family: 'Eagle Lake', cursive;
+}
+
+.fifthViewMore {
+	width: 50%;
+	height: 22%;
+	border: 0px;
+	background-image: url('../img/reminder.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #2c3e50;
+	font-size: 17px;
+	margin-left: 28%;
+	margin-top: 4%;
+	cursor: pointer;	
+}
+
+.fifthViewMore:hover {
+	border-color: #f5f5f5;
+	color: #f5f5f5;
+}
+
+
+/*SIXTH PILLING*/
+
+.sixthPilling {
+	width: 100vw;
+	height: 100vh;
+	background-color: #f5f5f5;
+	display: flex;
+}
+
+/*Page de gauche*/
+.sixthLeft {
+	width: 49%;
+	height: 99%;
+	margin-right: 0.3%;
+	margin-left: 0.4%;
+	margin-top: 1%;
+	background-image: url('../img/model2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.sixthHexagon { 
+	width: 50px; 
+	height: 25px; 
+	background-color: #f5f5f5; 
+	position: relative; 
+	margin-top: 9%;
+	margin-left: 6%;
+	cursor: pointer;
+	text-align: center;
+	color: #2c3e50;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	padding-top: 3px;
+}
+
+.sixthHexagon:hover {
+	opacity: 0.7;
+} 
+
+.sixthHexagon:before { 
+	content: ""; 
+	position: absolute; 
+	top: -12px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-bottom: 12.5px solid #f5f5f5; 
+} 
+
+.sixthHexagon:after { 
+	content: ""; 
+	position: absolute; 
+	bottom: -12.5px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-top: 12.5px solid #f5f5f5; 
+}
+
+.sixthProjectTitle {
+	width: 25%;
+	height: 25%;
+	background-color: transparent;
+	border: 3px solid #f5f5f5;
+	position: absolute;
+	color: #f5f5f5;
+	font-size: 21px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	margin-top: 20.5%;
+	margin-left: 39.5%;
+}
+
+.sixthProjectFilter {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.7;
+	position: absolute;
+}
+
+.sixthProjectSubtitle {
+	color: #f5f5f5;
+	width: 60%;
+    font-family: 'Poiret One', cursive;
+	font-size: 26px;
+	margin-top: 50%;
+	margin-left: 44%;
+	position: absolute;
+}
+
+/*Page de droite*/
+.sixthRight {
+	width: 49%;
+	height: 99%;
+	background-color: #77919E;
+	margin-top: 1%;
+}
+
+.github {
+	width: 30px;
+	height: 30px;
+	border: 0px;
+	background-image: url('../img/github-sign.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	margin-left: 47%;
+	margin-top: 10%;
+	cursor: pointer;
+	display: flex;
+}
+
+.sixthmenu {
+	width: 50px;
+	height: 50px;
+	border: 3px solid #2c3e50;
+	border-radius: 50%;
+	margin-top: 5%;
+	margin-left: 85%;
+}
+
+.sixthmenuFirstLine {
+	width: 29px;
+	height: 3px;
+	background-color: #2c3e50;
+	margin-top: 28%;
+	margin-left: 19%;
+}
+
+.sixthmenuSecondLine {
+	width: 29px;
+	height: 3px;
+	background-color: #2c3e50;
+	margin-top: 14%;
+	margin-left: 19%;
+}
+
+.sixthmenuThirdLine {
+	width: 29px;
+	height: 3px;
+	background-color: #2c3e50;
+	margin-top: 14%;
+	margin-left: 19%;
+}
+
+.sixthDescription {
+	width: 62%;
+	height: 75%;
+	background-color: transparent;
+	margin-top: 5%;
+	margin-left: 20%;
+	font-size: 18px;
+	line-height: 28px;
+	color: #2c3e50;
+}
+
+.sixthDescriptionP::before {
+	content: "L";
+	font-size: 35px;
+	font-weight: bold;
+    font-family: 'Eagle Lake', cursive;
+}
+
+.sixthViewMore {
+	width: 50%;
+	height: 22%	;
+	border: 0px;
+	background-image: url('../img/soledad.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	color: #2c3e50;
+	font-size: 17px;
+	margin-left: 28%;
+	margin-top: 4%;
+	cursor: pointer;	
+}
+
+.sixthViewMore:hover {
+	border-color: #f5f5f5;
+	color: #f5f5f5;
+}
+
+
+/*SEVENTH PILLING*/
+
+.seventhPilling {
+	width: 100vw;
+	height: 100vh;
+	background-color: #f5f5f5;
+	display: flex;
+}
+
+/*Page de gauche*/
+.seventhLeft {
+	width: 49%;
+	height: 99%;
+	margin-right: 0.3%;
+	margin-left: 0.4%;
+	margin-top: 1%;
+	background-image: url('../img/waves.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.seventhHexagon { 
+	width: 50px; 
+	height: 25px; 
+	background-color: #f5f5f5; 
+	position: relative; 
+	margin-top: 9%;
+	margin-left: 6%;
+	cursor: pointer;
+	text-align: center;
+	color: #2c3e50;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	padding-top: 3px;
+}
+
+.seventhHexagon:hover {
+	opacity: 0.7;
+} 
+
+.seventhHexagon:before { 
+	content: ""; 
+	position: absolute; 
+	top: -12px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-bottom: 12.5px solid #f5f5f5; 
+} 
+
+.seventhHexagon:after { 
+	content: ""; 
+	position: absolute; 
+	bottom: -12.5px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-top: 12.5px solid #f5f5f5; 
+}
+
+.seventhProjectTitle {
+	width: 25%;
+	height: 25%;
+	background-color: transparent;
+	border: 3px solid #f5f5f5;
+	position: absolute;
+	color: #f5f5f5;
+	font-size: 21px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	margin-top: 20.5%;
+	margin-left: 39.5%;
+}
+
+.sixthProjectFilter {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.7;
+	position: absolute;
+}
+
+.seventhProjectSubtitle {
+	color: #f5f5f5;
+	width: 60%;
+    font-family: 'Poiret One', cursive;
+	font-size: 26px;
+	margin-top: 50%;
+	margin-left: 37%;
+	position: absolute;
+}
+
+/*Page de droite*/
+.seventhRight {
+	width: 49%;
+	height: 99%;
+	background-color: #77919E;
+	margin-top: 1%;
+}
+
+.github {
+	width: 30px;
+	height: 30px;
+	border: 0px;
+	background-image: url('../img/github-sign.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	margin-left: 47%;
+	margin-top: 10%;
+	cursor: pointer;
+	display: flex;
+}
+
+.seventhDescription {
+	width: 62%;
+	height: 75%;
+	background-color: transparent;
+	margin-top: 5%;
+	margin-left: 20%;
+	font-size: 18px;
+	line-height: 28px;
+	color: #2c3e50;
+}
+
+.seventhDescriptionP::before {
+	content: "L";
+	font-size: 35px;
+	font-weight: bold;
+    font-family: 'Eagle Lake', cursive;
+}
+
+.seventhViewMore {
+	width: 50%;
+	height: 22%	;
+	border: 0px;
+	background-image: url('../img/scubaCourse.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	color: #2c3e50;
+	font-size: 17px;
+	margin-left: 28%;
+	margin-top: 4%;
+	cursor: pointer;	
+}
+
+.seventhViewMore:hover {
+	border-color: #f5f5f5;
+	color: #f5f5f5;
+}
+
+
+/*HEIGHTH PILLING*/
+
+.heighthPilling {
+	width: 100vw;
+	height: 100vh;
+	background-color: #f5f5f5;
+	display: flex;
+}
+
+/*Page de gauche*/
+.heighthLeft {
+	width: 49%;
+	height: 99%;
+	margin-right: 0.3%;
+	margin-left: 0.4%;
+	margin-top: 1%;
+	background-image: url('../img/computer.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.heighthHexagon { 
+	width: 50px; 
+	height: 25px; 
+	background-color: #f5f5f5; 
+	position: relative; 
+	margin-top: 9%;
+	margin-left: 6%;
+	cursor: pointer;
+	text-align: center;
+	color: #2c3e50;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	padding-top: 3px;
+}
+
+.heighthHexagon:hover {
+	opacity: 0.7;
+} 
+
+.heighthHexagon:before { 
+	content: ""; 
+	position: absolute; 
+	top: -12px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-bottom: 12.5px solid #f5f5f5; 
+} 
+
+.heighthHexagon:after { 
+	content: ""; 
+	position: absolute; 
+	bottom: -12.5px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-top: 12.5px solid #f5f5f5; 
+}
+
+.heighthProjectTitle {
+	width: 25%;
+	height: 25%;
+	background-color: transparent;
+	border: 3px solid #f5f5f5;
+	position: absolute;
+	color: #f5f5f5;
+	font-size: 21px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	margin-top: 20.5%;
+	margin-left: 39.5%;
+}
+
+.sixthProjectFilter {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.7;
+	position: absolute;
+}
+
+.heighthProjectSubtitle {
+	color: #f5f5f5;
+	width: 60%;
+    font-family: 'Poiret One', cursive;
+	font-size: 26px;
+	margin-top: 50%;
+	margin-left: 34%;
+	position: absolute;
+}
+
+/*Page de droite*/
+.heighthRight {
+	width: 49%;
+	height: 99%;
+	background-color: #77919E;
+	margin-top: 1%;
+}
+
+.github {
+	width: 30px;
+	height: 30px;
+	border: 0px;
+	background-image: url('../img/github-sign.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	margin-left: 47%;
+	margin-top: 10%;
+	cursor: pointer;
+	display: flex;
+}
+
+.heighthDescription {
+	width: 62%;
+	height: 75%;
+	background-color: transparent;
+	margin-top: 5%;
+	margin-left: 20%;
+	font-size: 18px;
+	line-height: 28px;
+	color: #2c3e50;
+}
+
+.heighthDescriptionP::before {
+	content: "L";
+	font-size: 35px;
+	font-weight: bold;
+    font-family: 'Eagle Lake', cursive;
+}
+
+.heighthViewMore {
+	width: 54%;
+	height: 22%	;
+	border: 0px;
+	background-image: url('../img/apex2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #2c3e50;
+	font-size: 17px;
+	margin-left: 28%;
+	margin-top: 4%;
+	cursor: pointer;	
+}
+
+.heighthViewMore:hover {
+	border-color: #f5f5f5;
+	color: #f5f5f5;
+}
+
+
+/*NINETH PILLING*/
+
+.ninethPilling {
+	width: 100vw;
+	height: 100vh;
+	background-color: #f5f5f5;
+	display: flex;
+}
+
+/*Page de gauche*/
+.ninethLeft {
+	width: 49%;
+	height: 99%;
+	margin-right: 0.3%;
+	margin-left: 0.4%;
+	margin-top: 1%;
+	background-image: url('../img/barbed-wire2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.ninethHexagon { 
+	width: 50px; 
+	height: 25px; 
+	background-color: #f5f5f5; 
+	position: relative; 
+	margin-top: 9%;
+	margin-left: 6%;
+	cursor: pointer;
+	text-align: center;
+	color: #2c3e50;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	padding-top: 3px;
+}
+
+.ninethHexagon:hover {
+	opacity: 0.7;
+} 
+
+.ninethHexagon:before { 
+	content: ""; 
+	position: absolute; 
+	top: -12px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-bottom: 12.5px solid #f5f5f5; 
+} 
+
+.ninethHexagon:after { 
+	content: ""; 
+	position: absolute; 
+	bottom: -12.5px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-top: 12.5px solid #f5f5f5; 
+}
+
+.ninethProjectTitle {
+	width: 25%;
+	height: 25%;
+	background-color: transparent;
+	border: 3px solid #f5f5f5;
+	position: absolute;
+	color: #f5f5f5;
+	font-size: 21px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	margin-top: 20.5%;
+	margin-left: 39.5%;
+}
+
+.sixthProjectFilter {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.7;
+	position: absolute;
+}
+
+.ninethProjectSubtitle {
+	color: #f5f5f5;
+	width: 60%;
+    font-family: 'Poiret One', cursive;
+	font-size: 26px;
+	margin-top: 50%;
+	margin-left: 34%;
+	position: absolute;
+}
+
+/*Page de droite*/
+.ninethRight {
+	width: 49%;
+	height: 99%;
+	background-color: #77919E;
+	margin-top: 1%;
+}
+
+.github {
+	width: 30px;
+	height: 30px;
+	border: 0px;
+	background-image: url('../img/github-sign.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	margin-left: 47%;
+	margin-top: 10%;
+	cursor: pointer;
+	display: flex;
+}
+
+.ninethDescription {
+	width: 62%;
+	height: 75%;
+	background-color: transparent;
+	margin-top: 5%;
+	margin-left: 20%;
+	font-size: 18px;
+	line-height: 28px;
+	color: #2c3e50;
+}
+
+.ninethDescriptionP::before {
+	content: "L";
+	font-size: 35px;
+	font-weight: bold;
+    font-family: 'Eagle Lake', cursive;
+}
+
+.ninethViewMore {
+	width: 54%;
+	height: 22%	;
+	border: 0px;
+	background-image: url('../img/syria.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #2c3e50;
+	font-size: 17px;
+	margin-left: 28%;
+	margin-top: 4%;
+	cursor: pointer;	
+}
+
+.ninethViewMore:hover {
+	border-color: #f5f5f5;
+	color: #f5f5f5;
+}
+
+
+/*TENTH PILLING*/
+
+.tenthPilling {
+	width: 100vw;
+	height: 100vh;
+	background-color: #f5f5f5;
+	display: flex;
+}
+
+/*Page de gauche*/
+.tenthLeft {
+	width: 49%;
+	height: 99%;
+	margin-right: 0.3%;
+	margin-left: 0.4%;
+	margin-top: 1%;
+	background-image: url('../img/cat.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.tenthHexagon { 
+	width: 50px; 
+	height: 25px; 
+	background-color: #f5f5f5; 
+	position: relative; 
+	margin-top: 9%;
+	margin-left: 6%;
+	cursor: pointer;
+	text-align: center;
+	color: #2c3e50;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	padding-top: 3px;
+}
+
+.tenthHexagon:hover {
+	opacity: 0.7;
+} 
+
+.tenthHexagon:before { 
+	content: ""; 
+	position: absolute; 
+	top: -12px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-bottom: 12.5px solid #f5f5f5; 
+} 
+
+.tenthHexagon:after { 
+	content: ""; 
+	position: absolute; 
+	bottom: -12.5px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-top: 12.5px solid #f5f5f5; 
+}
+
+.tenthProjectTitle {
+	width: 25%;
+	height: 25%;
+	background-color: transparent;
+	border: 3px solid #f5f5f5;
+	position: absolute;
+	color: #f5f5f5;
+	font-size: 21px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	margin-top: 20.5%;
+	margin-left: 39.5%;
+}
+
+.sixthProjectFilter {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.7;
+	position: absolute;
+}
+
+.tenthProjectSubtitle {
+	color: #f5f5f5;
+	width: 60%;
+    font-family: 'Poiret One', cursive;
+	font-size: 26px;
+	margin-top: 50%;
+	margin-left: 41%;
+	position: absolute;
+}
+
+/*Page de droite*/
+.tenthRight {
+	width: 49%;
+	height: 99%;
+	background-color: #77919E;
+	margin-top: 1%;
+}
+
+.github {
+	width: 30px;
+	height: 30px;
+	border: 0px;
+	background-image: url('../img/github-sign.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	margin-left: 47%;
+	margin-top: 10%;
+	cursor: pointer;
+	display: flex;
+}
+
+.tenthDescription {
+	width: 62%;
+	height: 75%;
+	background-color: transparent;
+	margin-top: 5%;
+	margin-left: 20%;
+	font-size: 18px;
+	line-height: 28px;
+	color: #2c3e50;
+}
+
+.tenthDescriptionP::before {
+	content: "L";
+	font-size: 35px;
+	font-weight: bold;
+    font-family: 'Eagle Lake', cursive;
+}
+
+
+/*ELEVENTH PILLING*/
+
+.eleventhPilling {
+	width: 100vw;
+	height: 100vh;
+	background-color: #f5f5f5;
+	display: flex;
+}
+
+.tenthViewMore {
+	width: 50%;
+	height: 22%	;
+	border: 0px;
+	background-image: url('../img/123veto.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #2c3e50;
+	font-size: 17px;
+	margin-left: 28%;
+	margin-top: 4%;
+	cursor: pointer;	
+}
+
+.tenthViewMore:hover {
+	border-color: #f5f5f5;
+	color: #f5f5f5;
+}
+
+/*Page de gauche*/
+.eleventhLeft {
+	width: 49%;
+	height: 99%;
+	margin-right: 0.3%;
+	margin-left: 0.4%;
+	margin-top: 1%;
+	background-image: url('../img/bukowski.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.eleventhHexagon { 
+	width: 50px; 
+	height: 25px; 
+	background-color: #f5f5f5; 
+	position: relative; 
+	margin-top: 9%;
+	margin-left: 6%;
+	cursor: pointer;
+	text-align: center;
+	color: #2c3e50;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	padding-top: 3px;
+}
+
+.eleventhHexagon:hover {
+	opacity: 0.7;
+} 
+
+.eleventhHexagon:before { 
+	content: ""; 
+	position: absolute; 
+	top: -12px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-bottom: 12.5px solid #f5f5f5; 
+} 
+
+.eleventhHexagon:after { 
+	content: ""; 
+	position: absolute; 
+	bottom: -12.5px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-top: 12.5px solid #f5f5f5; 
+}
+
+.eleventhProjectTitle {
+	width: 25%;
+	height: 25%;
+	background-color: transparent;
+	border: 3px solid #f5f5f5;
+	position: absolute;
+	color: #f5f5f5;
+	font-size: 21px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	margin-top: 20.5%;
+	margin-left: 39.5%;
+}
+
+.sixthProjectFilter {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.7;
+	position: absolute;
+}
+
+.eleventhProjectSubtitle {
+	color: #f5f5f5;
+	width: 60%;
+    font-family: 'Poiret One', cursive;
+	font-size: 26px;
+	margin-top: 50%;
+	margin-left: 35%;
+	position: absolute;
+}
+
+/*Page de droite*/
+.eleventhRight {
+	width: 49%;
+	height: 99%;
+	background-color: #77919E;
+	margin-top: 1%;
+}
+
+.github {
+	width: 30px;
+	height: 30px;
+	border: 0px;
+	background-image: url('../img/github-sign.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	margin-left: 47%;
+	margin-top: 10%;
+	cursor: pointer;
+	display: flex;
+}
+
+.eleventhDescription {
+	width: 62%;
+	height: 75%;
+	background-color: transparent;
+	margin-top: 5%;
+	margin-left: 20%;
+	font-size: 18px;
+	line-height: 28px;
+	color: #2c3e50;
+}
+
+.eleventhDescriptionP::before {
+	content: "L";
+	font-size: 35px;
+	font-weight: bold;
+    font-family: 'Eagle Lake', cursive;
+}
+
+.eleventhViewMore {
+	width: 50%;
+	height: 20%	;
+	border: 0px;
+	background-image: url('../img/bukowski.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #2c3e50;
+	font-size: 17px;
+	margin-left: 30%;
+	margin-top: 4%;
+	cursor: pointer;	
+}
+
+.eleventhViewMore:hover {
+	border-color: #f5f5f5;
+	color: #f5f5f5;
+}
+
+
+
+/*TWELVETH PILLING*/
+
+.twelvethPilling {
+	width: 100vw;
+	height: 100vh;
+	background-color: #f5f5f5;
+	display: flex;
+}
+
+.twelvethViewMore {
+	width: 50%;
+	height: 22%	;
+	border: 0px;
+	background-image: url('../img/123veto.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #2c3e50;
+	font-size: 17px;
+	margin-left: 28%;
+	margin-top: 4%;
+	cursor: pointer;	
+}
+
+.twelvethViewMore:hover {
+	border-color: #f5f5f5;
+	color: #f5f5f5;
+}
+
+/*Page de gauche*/
+.twelvethLeft {
+	width: 49%;
+	height: 99%;
+	margin-right: 0.3%;
+	margin-left: 0.4%;
+	margin-top: 1%;
+	background-image: url('../img/stone-age.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.twelvethHexagon { 
+	width: 50px; 
+	height: 25px; 
+	background-color: #f5f5f5; 
+	position: relative; 
+	margin-top: 9%;
+	margin-left: 6%;
+	cursor: pointer;
+	text-align: center;
+	color: #2c3e50;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	padding-top: 3px;
+}
+
+.twelvethHexagon:hover {
+	opacity: 0.7;
+} 
+
+.twelvethHexagon:before { 
+	content: ""; 
+	position: absolute; 
+	top: -12px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-bottom: 12.5px solid #f5f5f5; 
+} 
+
+.twelvethHexagon:after { 
+	content: ""; 
+	position: absolute; 
+	bottom: -12.5px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-top: 12.5px solid #f5f5f5; 
+}
+
+.twelvethProjectTitle {
+	width: 25%;
+	height: 25%;
+	background-color: transparent;
+	border: 3px solid #f5f5f5;
+	position: absolute;
+	color: #f5f5f5;
+	font-size: 21px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	margin-top: 20.5%;
+	margin-left: 39.5%;
+}
+
+.sixthProjectFilter {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.7;
+	position: absolute;
+}
+
+.twelvethProjectSubtitle {
+	color: #f5f5f5;
+	width: 60%;
+    font-family: 'Poiret One', cursive;
+	font-size: 26px;
+	margin-top: 50%;
+	margin-left: 37%;
+	position: absolute;
+}
+
+/*Page de droite*/
+.twelvethRight {
+	width: 49%;
+	height: 99%;
+	background-color: #77919E;
+	margin-top: 1%;
+}
+
+.github {
+	width: 30px;
+	height: 30px;
+	border: 0px;
+	background-image: url('../img/github-sign.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	margin-left: 47%;
+	margin-top: 10%;
+	cursor: pointer;
+	display: flex;
+}
+
+.twelvethmenu {
+	width: 50px;
+	height: 50px;
+	border: 3px solid #2c3e50;
+	border-radius: 50%;
+	margin-top: 5%;
+	margin-left: 85%;
+}
+
+.twelvethmenuFirstLine {
+	width: 29px;
+	height: 3px;
+	background-color: #2c3e50;
+	margin-top: 28%;
+	margin-left: 19%;
+}
+
+.twelvethmenuSecondLine {
+	width: 29px;
+	height: 3px;
+	background-color: #2c3e50;
+	margin-top: 14%;
+	margin-left: 19%;
+}
+
+.twelvethmenuThirdLine {
+	width: 29px;
+	height: 3px;
+	background-color: #2c3e50;
+	margin-top: 14%;
+	margin-left: 19%;
+}
+
+.twelvethDescription {
+	width: 62%;
+	height: 75%;
+	background-color: transparent;
+	margin-top: 7%;
+	margin-left: 20%;
+	font-size: 18px;
+	line-height: 28px;
+	color: #2c3e50;
+}
+
+.twelvethDescriptionP::before {
+	content: "L";
+	font-size: 35px;
+	font-weight: bold;
+    font-family: 'Eagle Lake', cursive;
+}
+
+.twelvethViewMore {
+	width: 50%;
+	height: 20%	;
+	border: 0px;
+	background-image: url('../img/merveilles.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #2c3e50;
+	font-size: 17px;
+	margin-left: 30%;
+	margin-top: 4%;
+	cursor: pointer;	
+}
+
+.twelvethViewMore:hover {
+	border-color: #f5f5f5;
+	color: #f5f5f5;
+}
+
+
+/*THIRTEENTH PILLING*/
+
+.thirteenthPilling {
+	width: 100vw;
+	height: 100vh;
+	background-color: #f5f5f5;
+	display: flex;
+}
+
+.thirteenthViewMore {
+	width: 50%;
+	height: 22%	;
+	border: 0px;
+	background-image: url('../img/123veto.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #2c3e50;
+	font-size: 17px;
+	margin-left: 28%;
+	margin-top: 4%;
+	cursor: pointer;	
+}
+
+.thirteenthViewMore:hover {
+	border-color: #f5f5f5;
+	color: #f5f5f5;
+}
+
+/*Page de gauche*/
+.thirteenthLeft {
+	width: 49%;
+	height: 99%;
+	margin-right: 0.3%;
+	margin-left: 0.4%;
+	margin-top: 1%;
+	background-image: url('../img/bar.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.thirteenthHexagon { 
+	width: 50px; 
+	height: 25px; 
+	background-color: #f5f5f5; 
+	position: relative; 
+	margin-top: 9%;
+	margin-left: 6%;
+	cursor: pointer;
+	text-align: center;
+	color: #2c3e50;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	padding-top: 3px;
+}
+
+.thirteenthHexagon:hover {
+	opacity: 0.7;
+} 
+
+.thirteenthHexagon:before { 
+	content: ""; 
+	position: absolute; 
+	top: -12px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-bottom: 12.5px solid #f5f5f5; 
+} 
+
+.thirteenthHexagon:after { 
+	content: ""; 
+	position: absolute; 
+	bottom: -12.5px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-top: 12.5px solid #f5f5f5; 
+}
+
+.thirteenthProjectTitle {
+	width: 25%;
+	height: 25%;
+	background-color: transparent;
+	border: 3px solid #f5f5f5;
+	position: absolute;
+	color: #f5f5f5;
+	font-size: 21px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	margin-top: 20.5%;
+	margin-left: 39.5%;
+}
+
+.sixthProjectFilter {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.7;
+	position: absolute;
+}
+
+.thirteenthProjectSubtitle {
+	color: #f5f5f5;
+	width: 60%;
+    font-family: 'Poiret One', cursive;
+	font-size: 26px;
+	margin-top: 50%;
+	margin-left: 25%;
+	position: absolute;
+}
+
+/*Page de droite*/
+.thirteenthRight {
+	width: 49%;
+	height: 99%;
+	background-color: #77919E;
+	margin-top: 1%;
+}
+
+.github {
+	width: 30px;
+	height: 30px;
+	border: 0px;
+	background-image: url('../img/github-sign.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	margin-left: 47%;
+	margin-top: 10%;
+	cursor: pointer;
+	display: flex;
+}
+
+.thirteenthDescription {
+	width: 62%;
+	height: 75%;
+	background-color: transparent;
+	margin-top: 5%;
+	margin-left: 20%;
+	font-size: 18px;
+	line-height: 28px;
+	color: #2c3e50;
+}
+
+.thirteenthDescriptionP::before {
+	content: "L";
+	font-size: 35px;
+	font-weight: bold;
+    font-family: 'Eagle Lake', cursive;
+}
+
+.thirteenthViewMore {
+	width: 50%;
+	height: 20%	;
+	border: 0px;
+	background-image: url('../img/neon.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #2c3e50;
+	font-size: 17px;
+	margin-left: 30%;
+	margin-top: 4%;
+	cursor: pointer;	
+}
+
+.thirteenthViewMore:hover {
+	border-color: #f5f5f5;
+	color: #f5f5f5;
+}
+
+
+/*FOURTEENTH PILLING*/
+
+.fourteenthPilling {
+	width: 100vw;
+	height: 100vh;
+	background-color: #f5f5f5;
+	display: flex;
+}
+
+.fourteenthViewMore {
+	width: 50%;
+	height: 22%	;
+	border: 0px;
+	background-image: url('../img/123veto.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #2c3e50;
+	font-size: 17px;
+	margin-left: 28%;
+	margin-top: 4%;
+	cursor: pointer;	
+}
+
+.fourteenthViewMore:hover {
+	border-color: #f5f5f5;
+	color: #f5f5f5;
+}
+
+/*Page de gauche*/
+.fourteenthLeft {
+	width: 49%;
+	height: 99%;
+	margin-right: 0.3%;
+	margin-left: 0.4%;
+	margin-top: 1%;
+	background-image: url('../img/appareilPhoto.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.fourteenthHexagon { 
+	width: 50px; 
+	height: 25px; 
+	background-color: #f5f5f5; 
+	position: relative; 
+	margin-top: 9%;
+	margin-left: 6%;
+	cursor: pointer;
+	text-align: center;
+	color: #2c3e50;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	padding-top: 3px;
+}
+
+.fourteenthHexagon:hover {
+	opacity: 0.7;
+} 
+
+.fourteenthHexagon:before { 
+	content: ""; 
+	position: absolute; 
+	top: -12px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-bottom: 12.5px solid #f5f5f5; 
+} 
+
+.fourteenthHexagon:after { 
+	content: ""; 
+	position: absolute; 
+	bottom: -12.5px; 
+	left: 0; 
+	width: 0; 
+	height: 0; 
+	border-left: 25px solid transparent; 
+	border-right: 25px solid transparent; 
+	border-top: 12.5px solid #f5f5f5; 
+}
+
+.fourteenthProjectTitle {
+	width: 25%;
+	height: 25%;
+	background-color: transparent;
+	border: 3px solid #f5f5f5;
+	position: absolute;
+	color: #f5f5f5;
+	font-size: 21px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	margin-top: 20.5%;
+	margin-left: 39.5%;
+}
+
+.sixthProjectFilter {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.7;
+	position: absolute;
+}
+
+.fourteenthProjectSubtitle {
+	color: #f5f5f5;
+	width: 60%;
+    font-family: 'Poiret One', cursive;
+	font-size: 26px;
+	margin-top: 50%;
+	margin-left: 35%;
+	position: absolute;
+}
+
+/*Page de droite*/
+.fourteenthRight {
+	width: 49%;
+	height: 99%;
+	background-color: #77919E;
+	margin-top: 1%;
+}
+
+.github {
+	width: 30px;
+	height: 30px;
+	border: 0px;
+	background-image: url('../img/github-sign.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: transparent;
+	margin-left: 47%;
+	margin-top: 10%;
+	cursor: pointer;
+	display: flex;
+}
+
+.fourteenthDescription {
+	width: 62%;
+	height: 75%;
+	background-color: transparent;
+	margin-top: 5%;
+	margin-left: 20%;
+	font-size: 18px;
+	line-height: 28px;
+	color: #2c3e50;
+}
+
+.fourteenthDescriptionP::before {
+	content: "L";
+	font-size: 35px;
+	font-weight: bold;
+    font-family: 'Eagle Lake', cursive;
+}
+
+.fourteenthViewMore {
+	width: 50%;
+	height: 20%	;
+	border: 0px;
+	background-image: url('../img/massively.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #2c3e50;
+	font-size: 17px;
+	margin-left: 30%;
+	margin-top: 4%;
+	cursor: pointer;	
+}
+
+.fourteenthViewMore:hover {
+	border-color: #f5f5f5;
+	color: #f5f5f5;
+}
