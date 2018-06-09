@@ -194,7 +194,9 @@ body {
 	width: 49%;
 	height: 99%;
 	margin-top: 1%;
-	background-color: #77919E;
+	background-color: #93928b;
+	/*background-color: #3d719d;*/
+	/*background-color: #77919E;*/
 }
 
 .secondDescription {
@@ -206,6 +208,7 @@ body {
 	font-size: 18px;
 	line-height: 28px;
 	color: #2c3e50;
+	
 }
 
 .description::before {
@@ -338,8 +341,10 @@ body {
 .thirdRight {
 	width: 49%;
 	height: 99%;
-	background-color: #77919E;
+	/*background-color: #77919E;*/
 	margin-top: 1%;
+	background-color: #5e523e;
+	/*background-color: #f2f2f2:;*/
 }
 
 .github {
@@ -492,8 +497,9 @@ body {
 .fourthRight {
 	width: 49%;
 	height: 99%;
-	background-color: #77919E;
+	/*background-color: #77919E;*/
 	margin-top: 1%;
+	background-color: #ece9c1;
 }
 
 .github {
@@ -647,7 +653,9 @@ body {
 .fifthRight {
 	width: 49%;
 	height: 99%;
-	background-color: #77919E;
+	background-color: #aea08e;
+	/*background-color: #f25c54;*/
+	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
@@ -807,7 +815,8 @@ body {
 .sixthRight {
 	width: 49%;
 	height: 99%;
-	background-color: #77919E;
+	background-color: #848383;
+	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
@@ -1000,7 +1009,11 @@ body {
 .seventhRight {
 	width: 49%;
 	height: 99%;
-	background-color: #77919E;
+	background-color: #f2f2f2;
+	/*background-color: #29036b;*/
+/*	background-color: #16132b;*/
+	/*background-color: #7e77c1;*/
+	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
@@ -1027,7 +1040,8 @@ body {
 	margin-left: 20%;
 	font-size: 18px;
 	line-height: 28px;
-	color: #2c3e50;
+	color: #16132b;
+	/*color: #2c3e50;*/
 }
 
 .seventhDescriptionP::before {
@@ -1160,7 +1174,9 @@ body {
 .heighthRight {
 	width: 49%;
 	height: 99%;
-	background-color: #77919E;
+	background-color: #a9a9a2;
+	/*background-color: #5d5b58;*/
+	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
@@ -1320,7 +1336,9 @@ body {
 .ninethRight {
 	width: 49%;
 	height: 99%;
-	background-color: #77919E;
+	background-color: #616767;
+	/*background-color: #b2b3b0;*/
+	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
@@ -1480,7 +1498,11 @@ body {
 .tenthRight {
 	width: 49%;
 	height: 99%;
-	background-color: #77919E;
+	background-color: #596b5e;
+	/*background-color: #f7fafb;*/
+	/*background-color: #d39f18;*/
+	/*background-color: #bdb491;*/
+	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
@@ -1640,7 +1662,9 @@ body {
 .eleventhRight {
 	width: 49%;
 	height: 99%;
-	background-color: #77919E;
+	/*background-color: #38414d;*/
+	background-color: #828487;
+	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
@@ -1821,7 +1845,8 @@ body {
 .twelvethRight {
 	width: 49%;
 	height: 99%;
-	background-color: #77919E;
+	background-color: #fffaeb;
+	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
@@ -2034,7 +2059,8 @@ body {
 .thirteenthRight {
 	width: 49%;
 	height: 99%;
-	background-color: #77919E;
+	background-color: #d38887;
+	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
@@ -2061,7 +2087,9 @@ body {
 	margin-left: 20%;
 	font-size: 18px;
 	line-height: 28px;
-	color: #2c3e50;
+	color: #0c0c0d;
+	/*color: #3e0308;*/
+	/*color: #2c3e50;*/
 }
 
 .thirteenthDescriptionP::before {
@@ -2214,7 +2242,9 @@ body {
 .fourteenthRight {
 	width: 49%;
 	height: 99%;
-	background-color: #77919E;
+	background-color: #534341;
+	/*background-color: #d2782c;*/
+	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
@@ -2241,7 +2271,8 @@ body {
 	margin-left: 20%;
 	font-size: 18px;
 	line-height: 28px;
-	color: #2c3e50;
+	color: #100e16;
+	/*color: #2c3e50;*/
 }
 
 .fourteenthDescriptionP::before {
