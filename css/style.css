@@ -136,7 +136,8 @@ body {
 }
 
 .secondHexagon:hover {
-	opacity: 0.7;
+	/*opacity: 0.7;*/
+	background-color: #3d719d;
 } 
 
 .secondHexagon:before { 
@@ -151,6 +152,10 @@ body {
 	border-bottom: 12.5px solid #f5f5f5; 
 } 
 
+.secondHexagon:hover::before {
+	border-bottom: 12.5px solid #3d719d;
+}
+
 .secondHexagon:after { 
 	content: ""; 
 	position: absolute; 
@@ -163,6 +168,10 @@ body {
 	border-top: 12.5px solid #f5f5f5; 
 }
 
+.secondHexagon:hover::after {
+	border-top: 12.5px solid #3d719d;
+}
+
 .projectSubtitle {
 	color: #f5f5f5;
 	width: 60%;
@@ -173,13 +182,13 @@ body {
 	position: absolute;
 }
 
-/*Page de droite*/
+/*Clicker Page de droite*/
 
-.github {
+.githubClicker {
 	width: 30px;
 	height: 30px;
 	border: 0px;
-	background-image: url('../img/github-sign.svg');
+	background-image: url('../img/github-clicker.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -190,13 +199,15 @@ body {
 	display: flex;
 }
 
+.githubClicker:hover {
+	background-image: url('../img/github-clicker-hover.png');
+}
+
 .secondRight {
 	width: 49%;
 	height: 99%;
 	margin-top: 1%;
 	background-color: #93928b;
-	/*background-color: #3d719d;*/
-	/*background-color: #77919E;*/
 }
 
 .secondDescription {
@@ -207,7 +218,7 @@ body {
 	margin-left: 20%;
 	font-size: 18px;
 	line-height: 28px;
-	color: #2c3e50;
+	color: #090909;
 	
 }
 
@@ -226,20 +237,14 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: right;
-	/*ox-shadow: 10px 8px 5px black;*/
 	font-size: 17px;
 	margin-left: 28%;
 	margin-top: 4%;
 	cursor: pointer;	
 }
 
-.viewMore:hover {
-	border-color: #f5f5f5;
-	color: #f5f5f5;
-}
 
-
-/*THIRD PILLING*/
+/*POMODORO THIRD PILLING*/
 
 .thirdPilling {
 	width: 100vw;
@@ -278,7 +283,8 @@ body {
 }
 
 .thirdHexagon:hover {
-	opacity: 0.7;
+	opacity: 0.8;
+	background-color: #ded4c5;
 } 
 
 .thirdHexagon:before { 
@@ -293,6 +299,10 @@ body {
 	border-bottom: 12.5px solid #f5f5f5; 
 } 
 
+.thirdHexagon:hover::before {
+	border-bottom: 12.5px solid #ded4c5;
+}
+
 .thirdHexagon:after { 
 	content: ""; 
 	position: absolute; 
@@ -303,6 +313,10 @@ body {
 	border-left: 25px solid transparent; 
 	border-right: 25px solid transparent; 
 	border-top: 12.5px solid #f5f5f5; 
+}
+
+.thirdHexagon:hover::after {
+	border-top: 12.5px solid #ded4c5;
 }
 
 .thirdProjectTitle {
@@ -341,17 +355,15 @@ body {
 .thirdRight {
 	width: 49%;
 	height: 99%;
-	/*background-color: #77919E;*/
 	margin-top: 1%;
 	background-color: #5e523e;
-	/*background-color: #f2f2f2:;*/
 }
 
-.github {
+.githubPomodoro {
 	width: 30px;
 	height: 30px;
 	border: 0px;
-	background-image: url('../img/github-sign.svg');
+	background-image: url('../img/github-pomodoro.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -362,6 +374,10 @@ body {
 	display: flex;
 }
 
+.githubPomodoro:hover {
+	background-image: url('../img/github-pomodoro-hover.png');
+}
+
 .thirdDescription {
 	width: 62%;
 	height: 75%;
@@ -370,7 +386,7 @@ body {
 	margin-left: 20%;
 	font-size: 18px;
 	line-height: 28px;
-	color: #2c3e50;
+	color: #0c0b0b;
 }
 
 .thirdDescriptionP::before {
@@ -395,7 +411,7 @@ body {
 	cursor: pointer;	
 }
 
-/*FOURTH PILLING*/
+/*MEMORY FOURTH PILLING*/
 
 .fourthPilling {
 	width: 100vw;
@@ -434,7 +450,7 @@ body {
 }
 
 .fourthHexagon:hover {
-	opacity: 0.7;
+	background-color: #c49427;
 } 
 
 .fourthHexagon:before { 
@@ -449,6 +465,10 @@ body {
 	border-bottom: 12.5px solid #f5f5f5; 
 } 
 
+.fourthHexagon:hover::before {
+	border-bottom: 12.5px solid #c49427;
+}
+
 .fourthHexagon:after { 
 	content: ""; 
 	position: absolute; 
@@ -459,6 +479,10 @@ body {
 	border-left: 25px solid transparent; 
 	border-right: 25px solid transparent; 
 	border-top: 12.5px solid #f5f5f5; 
+}
+
+.fourthHexagon:hover::after {
+	border-top: 12.5px solid #c49427;
 }
 
 .fourthProjectTitle {
@@ -502,11 +526,11 @@ body {
 	background-color: #ece9c1;
 }
 
-.github {
+.githubMemory {
 	width: 30px;
 	height: 30px;
 	border: 0px;
-	background-image: url('../img/github-sign.svg');
+	background-image: url('../img/github-memory.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -517,6 +541,10 @@ body {
 	display: flex;
 }
 
+.githubMemory:hover {
+	background-image: url('../img/github-memory-hover.png');
+}
+
 .fourthDescription {
 	width: 62%;
 	height: 75%;
@@ -525,7 +553,7 @@ body {
 	margin-left: 20%;
 	font-size: 18px;
 	line-height: 28px;
-	color: #2c3e50;
+	color: #3e3428;
 }
 
 .fourthDescriptionP::before {
@@ -551,7 +579,7 @@ body {
 }
 
 
-/*FIFTH PILLING*/
+/*REMINDER FIFTH PILLING*/
 
 .fifthPilling {
 	width: 100vw;
@@ -590,7 +618,8 @@ body {
 }
 
 .fifthHexagon:hover {
-	opacity: 0.7;
+	/*opacity: 0.7;*/
+	background-color: #f25c54;
 } 
 
 .fifthHexagon:before { 
@@ -605,6 +634,10 @@ body {
 	border-bottom: 12.5px solid #f5f5f5; 
 } 
 
+.fifthHexagon:hover::before {
+	border-bottom: 12.5px solid #f25c54; 
+}
+
 .fifthHexagon:after { 
 	content: ""; 
 	position: absolute; 
@@ -615,6 +648,10 @@ body {
 	border-left: 25px solid transparent; 
 	border-right: 25px solid transparent; 
 	border-top: 12.5px solid #f5f5f5; 
+}
+
+.fifthHexagon:hover::after {
+	border-top: 12.5px solid #f25c54; 
 }
 
 .fifthProjectTitle {
@@ -659,11 +696,11 @@ body {
 	margin-top: 1%;
 }
 
-.github {
+.githubReminder {
 	width: 30px;
 	height: 30px;
 	border: 0px;
-	background-image: url('../img/github-sign.svg');
+	background-image: url('../img/github-reminder.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -672,6 +709,10 @@ body {
 	margin-top: 10%;
 	cursor: pointer;
 	display: flex;
+}
+
+.githubReminder:hover {
+	background-image: url('../img/github-reminder-hover.png');
 }
 
 .fifthDescription {
@@ -907,7 +948,7 @@ body {
 }
 
 
-/*SEVENTH PILLING*/
+/*SCUBA COURSE SEVENTH PILLING*/
 
 .seventhPilling {
 	width: 100vw;
@@ -946,7 +987,9 @@ body {
 }
 
 .seventhHexagon:hover {
-	opacity: 0.7;
+	opacity: 0.8;
+	background-color: #3d0f9e;
+	color: #f5f5f5;
 } 
 
 .seventhHexagon:before { 
@@ -961,6 +1004,10 @@ body {
 	border-bottom: 12.5px solid #f5f5f5; 
 } 
 
+.seventhHexagon:hover::before {
+	border-bottom: 12.5px solid #3d0f9e;	
+}
+
 .seventhHexagon:after { 
 	content: ""; 
 	position: absolute; 
@@ -971,6 +1018,10 @@ body {
 	border-left: 25px solid transparent; 
 	border-right: 25px solid transparent; 
 	border-top: 12.5px solid #f5f5f5; 
+}
+
+.seventhHexagon:hover::after {
+	border-top: 12.5px solid #3d0f9e;	
 }
 
 .seventhProjectTitle {
@@ -1010,18 +1061,14 @@ body {
 	width: 49%;
 	height: 99%;
 	background-color: #f2f2f2;
-	/*background-color: #29036b;*/
-/*	background-color: #16132b;*/
-	/*background-color: #7e77c1;*/
-	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
-.github {
+.githubScuba {
 	width: 30px;
 	height: 30px;
 	border: 0px;
-	background-image: url('../img/github-sign.svg');
+	background-image: url('../img/github-scuba.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -1032,6 +1079,10 @@ body {
 	display: flex;
 }
 
+.githubScuba:hover {
+	background-image: url('../img/github-scuba-hover.png');
+}
+
 .seventhDescription {
 	width: 62%;
 	height: 75%;
@@ -1040,8 +1091,9 @@ body {
 	margin-left: 20%;
 	font-size: 18px;
 	line-height: 28px;
-	color: #16132b;
+	/*color: #16132b;*/
 	/*color: #2c3e50;*/
+	color: #16132b;
 }
 
 .seventhDescriptionP::before {
