@@ -19,3 +19,10 @@ $(document).ready(function() {
         animateAnchor: false,
    });
 });
+
+
+/*Fonction pour lier vers la page clicker. Il reste à le faire s'ouvrir dans une autre fenêtre */
+
+/*function visitPageClicker(){
+    window.location=('https://acima2.github.io/Cueilleur-Etoiles/');
+}*/

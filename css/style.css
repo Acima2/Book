@@ -1091,8 +1091,6 @@ body {
 	margin-left: 20%;
 	font-size: 18px;
 	line-height: 28px;
-	/*color: #16132b;*/
-	/*color: #2c3e50;*/
 	color: #16132b;
 }
 
@@ -1111,8 +1109,6 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: right;
-	color: #2c3e50;
-	font-size: 17px;
 	margin-left: 28%;
 	margin-top: 4%;
 	cursor: pointer;	
