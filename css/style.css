@@ -5,7 +5,7 @@ body {
 
 /*FIRST PILLING*/
 
-.firstPilling {
+.pillingCover {
 	width: 100vw;
 	height: 100vh;
 	background-image: url('../img/forest.jpg');
@@ -30,13 +30,13 @@ body {
 	float: right;
 }
 
-.name {
+/*.name {
 	font-size: 28px;
 	color: #f5f5f5;
 	font-family: 'Source Sans Pro', sans-serif;
 	float: right;
 	margin-top: 4%;
-}
+}*/
 
 /*.name::before {
 	content: "";
@@ -82,10 +82,19 @@ body {
 	font-weight: bold;
 }
 
+/* FILTRE commun à plusieurs images du côté gauche*/
 
-/*SECOND PILLING*/
+.projectFilter {
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.7;
+	position: absolute;
+}
 
-.secondPilling {
+/* CLICKER PILLING 2 */
+
+.pillingClicker {
 	width: 100vw;
 	height: 100vh;
 	background-color: #f5f5f5;
@@ -93,7 +102,7 @@ body {
 }
 
 /*Page de gauche*/
-.secondLeft {
+.leftClicker {
 	width: 49%;
 	height: 99%;
 	margin-right: 0.3%;
@@ -106,7 +115,7 @@ body {
 	position: relative;
 }
 
-.projectTitle {
+.projectTitleClicker {
 	width: 25%;
 	height: 25%;
 	background-color: transparent;
@@ -120,7 +129,7 @@ body {
 	margin-left: 39.5%;
 }
 
-.secondHexagon { 
+.hexagonClicker { 
 	width: 50px; 
 	height: 25px; 
 	background-color: #f5f5f5; 
@@ -135,12 +144,12 @@ body {
 	padding-top: 3px;
 }
 
-.secondHexagon:hover {
+.hexagonClicker:hover {
 	/*opacity: 0.7;*/
 	background-color: #3d719d;
 } 
 
-.secondHexagon:before { 
+.hexagonClicker:before { 
 	content: ""; 
 	position: absolute; 
 	top: -12px; 
@@ -152,11 +161,11 @@ body {
 	border-bottom: 12.5px solid #f5f5f5; 
 } 
 
-.secondHexagon:hover::before {
+.hexagonClicker:hover::before {
 	border-bottom: 12.5px solid #3d719d;
 }
 
-.secondHexagon:after { 
+.hexagonClicker:after { 
 	content: ""; 
 	position: absolute; 
 	bottom: -12.5px; 
@@ -168,11 +177,11 @@ body {
 	border-top: 12.5px solid #f5f5f5; 
 }
 
-.secondHexagon:hover::after {
+.hexagonClicker:hover::after {
 	border-top: 12.5px solid #3d719d;
 }
 
-.projectSubtitle {
+.projectSubtitleClicker {
 	color: #f5f5f5;
 	width: 60%;
     font-family: 'Poiret One', cursive;
@@ -183,6 +192,12 @@ body {
 }
 
 /*Clicker Page de droite*/
+.rightClicker {
+	width: 49%;
+	height: 99%;
+	margin-top: 1%;
+	background-color: #93928b;
+}
 
 .githubClicker {
 	width: 30px;
@@ -203,14 +218,7 @@ body {
 	background-image: url('../img/github-clicker-hover.png');
 }
 
-.secondRight {
-	width: 49%;
-	height: 99%;
-	margin-top: 1%;
-	background-color: #93928b;
-}
-
-.secondDescription {
+.descriptionClicker {
 	width: 62%;
 	height: 75%;
 	background-color: transparent;
@@ -222,14 +230,14 @@ body {
 	
 }
 
-.description::before {
+.descriptionClickerP::before {
 	content: "C";
 	font-size: 35px;
 	font-weight: bold;
     font-family: 'Eagle Lake', cursive;
 }
 
-.viewMore {
+.viewMoreClicker {
 	width: 50%;
 	height: 22%	;
 	border: 0px;
@@ -244,9 +252,9 @@ body {
 }
 
 
-/*POMODORO THIRD PILLING*/
+/* POMODORO PILLING 3 */
 
-.thirdPilling {
+.pillingPomodoro {
 	width: 100vw;
 	height: 100vh;
 	background-color: #f5f5f5;
@@ -254,7 +262,7 @@ body {
 }
 
 /*Page de gauche*/
-.thirdLeft {
+.leftPomodoro {
 	width: 49%;
 	height: 99%;
 	margin-right: 0.3%;
@@ -267,7 +275,7 @@ body {
 	position: relative;
 }
 
-.thirdHexagon { 
+.hexagonPomodoro { 
 	width: 50px; 
 	height: 25px; 
 	background-color: #f5f5f5; 
@@ -282,12 +290,12 @@ body {
 	padding-top: 3px;
 }
 
-.thirdHexagon:hover {
+.hexagonPomodoro:hover {
 	opacity: 0.8;
 	background-color: #ded4c5;
 } 
 
-.thirdHexagon:before { 
+.hexagonPomodoro:before { 
 	content: ""; 
 	position: absolute; 
 	top: -12px; 
@@ -299,11 +307,11 @@ body {
 	border-bottom: 12.5px solid #f5f5f5; 
 } 
 
-.thirdHexagon:hover::before {
+.hexagonPomodoro:hover::before {
 	border-bottom: 12.5px solid #ded4c5;
 }
 
-.thirdHexagon:after { 
+.hexagonPomodoro:after { 
 	content: ""; 
 	position: absolute; 
 	bottom: -12.5px; 
@@ -315,11 +323,11 @@ body {
 	border-top: 12.5px solid #f5f5f5; 
 }
 
-.thirdHexagon:hover::after {
+.hexagonPomodoro:hover::after {
 	border-top: 12.5px solid #ded4c5;
 }
 
-.thirdProjectTitle {
+.projectTitlePomodoro {
 	width: 25%;
 	height: 25%;
 	background-color: transparent;
@@ -333,15 +341,7 @@ body {
 	margin-left: 39.5%;
 }
 
-.thirdProjectFilter {
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	opacity: 0.7;
-	position: absolute;
-}
-
-.thirdProjectSubtitle {
+.projectSubtitlePomodoro {
 	color: #f5f5f5;
 	width: 60%;
     font-family: 'Poiret One', cursive;
@@ -352,7 +352,7 @@ body {
 }
 
 /*Page de droite*/
-.thirdRight {
+.rightPomodoro {
 	width: 49%;
 	height: 99%;
 	margin-top: 1%;
@@ -378,7 +378,7 @@ body {
 	background-image: url('../img/github-pomodoro-hover.png');
 }
 
-.thirdDescription {
+.descriptionPomodoro {
 	width: 62%;
 	height: 75%;
 	background-color: transparent;
@@ -389,7 +389,7 @@ body {
 	color: #0c0b0b;
 }
 
-.thirdDescriptionP::before {
+.descriptionPomodoroP::before {
 	content: "A";
 	font-size: 35px;
 	font-weight: bold;
@@ -411,9 +411,9 @@ body {
 	cursor: pointer;	
 }
 
-/*MEMORY FOURTH PILLING*/
+/* MEMORY PILLING 4 */
 
-.fourthPilling {
+.pillingMemory {
 	width: 100vw;
 	height: 100vh;
 	background-color: #f5f5f5;
@@ -421,7 +421,7 @@ body {
 }
 
 /*Page de gauche*/
-.fourthLeft {
+.leftMemory {
 	width: 49%;
 	height: 99%;
 	margin-right: 0.3%;
@@ -434,7 +434,7 @@ body {
 	position: relative;
 }
 
-.fourthHexagon { 
+.hexagonMemory { 
 	width: 50px; 
 	height: 25px; 
 	background-color: #f5f5f5; 
@@ -449,11 +449,11 @@ body {
 	padding-top: 3px;
 }
 
-.fourthHexagon:hover {
+.hexagonMemory:hover {
 	background-color: #c49427;
 } 
 
-.fourthHexagon:before { 
+.hexagonMemory:before { 
 	content: ""; 
 	position: absolute; 
 	top: -12px; 
@@ -465,11 +465,11 @@ body {
 	border-bottom: 12.5px solid #f5f5f5; 
 } 
 
-.fourthHexagon:hover::before {
+.hexagonMemory:hover::before {
 	border-bottom: 12.5px solid #c49427;
 }
 
-.fourthHexagon:after { 
+.hexagonMemory:after { 
 	content: ""; 
 	position: absolute; 
 	bottom: -12.5px; 
@@ -481,11 +481,11 @@ body {
 	border-top: 12.5px solid #f5f5f5; 
 }
 
-.fourthHexagon:hover::after {
+.hexagonMemory:hover::after {
 	border-top: 12.5px solid #c49427;
 }
 
-.fourthProjectTitle {
+.projectTitleMemory {
 	width: 25%;
 	height: 25%;
 	background-color: transparent;
@@ -499,15 +499,7 @@ body {
 	margin-left: 39.5%;
 }
 
-.fourthProjectFilter {
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	opacity: 0.7;
-	position: absolute;
-}
-
-.fourthProjectSubtitle {
+.projectSubtitleMemory {
 	color: #f5f5f5;
 	width: 60%;
     font-family: 'Poiret One', cursive;
@@ -518,10 +510,9 @@ body {
 }
 
 /*Page de droite*/
-.fourthRight {
+.rightMemory {
 	width: 49%;
 	height: 99%;
-	/*background-color: #77919E;*/
 	margin-top: 1%;
 	background-color: #ece9c1;
 }
@@ -545,7 +536,7 @@ body {
 	background-image: url('../img/github-memory-hover.png');
 }
 
-.fourthDescription {
+.descriptionMemory {
 	width: 62%;
 	height: 75%;
 	background-color: transparent;
@@ -556,7 +547,7 @@ body {
 	color: #3e3428;
 }
 
-.fourthDescriptionP::before {
+.descriptionMemoryP::before {
 	content: "L";
 	font-size: 35px;
 	font-weight: bold;
@@ -579,9 +570,9 @@ body {
 }
 
 
-/*REMINDER FIFTH PILLING*/
+/* REMINDER PILLING 5 */
 
-.fifthPilling {
+.pillingReminder {
 	width: 100vw;
 	height: 100vh;
 	background-color: #f5f5f5;
@@ -589,7 +580,7 @@ body {
 }
 
 /*Page de gauche*/
-.fifthLeft {
+.leftReminder {
 	width: 49%;
 	height: 99%;
 	margin-right: 0.3%;
@@ -602,7 +593,7 @@ body {
 	position: relative;
 }
 
-.fifthHexagon { 
+.hexagonReminder { 
 	width: 50px; 
 	height: 25px; 
 	background-color: #f5f5f5; 
@@ -617,12 +608,12 @@ body {
 	padding-top: 3px;
 }
 
-.fifthHexagon:hover {
+.hexagonReminder:hover {
 	/*opacity: 0.7;*/
 	background-color: #f25c54;
 } 
 
-.fifthHexagon:before { 
+.hexagonReminder:before { 
 	content: ""; 
 	position: absolute; 
 	top: -12px; 
@@ -634,11 +625,11 @@ body {
 	border-bottom: 12.5px solid #f5f5f5; 
 } 
 
-.fifthHexagon:hover::before {
+.hexagonReminder:hover::before {
 	border-bottom: 12.5px solid #f25c54; 
 }
 
-.fifthHexagon:after { 
+.hexagonReminder:after { 
 	content: ""; 
 	position: absolute; 
 	bottom: -12.5px; 
@@ -650,11 +641,11 @@ body {
 	border-top: 12.5px solid #f5f5f5; 
 }
 
-.fifthHexagon:hover::after {
+.hexagonReminder:hover::after {
 	border-top: 12.5px solid #f25c54; 
 }
 
-.fifthProjectTitle {
+.projectTitleReminder {
 	width: 25%;
 	height: 25%;
 	background-color: transparent;
@@ -668,15 +659,7 @@ body {
 	margin-left: 39.5%;
 }
 
-.fifthProjectFilter {
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	opacity: 0.7;
-	position: absolute;
-}
-
-.fifthProjectSubtitle {
+.projectSubtitleReminder {
 	color: #f5f5f5;
 	width: 60%;
     font-family: 'Poiret One', cursive;
@@ -687,12 +670,10 @@ body {
 }
 
 /*Page de droite*/
-.fifthRight {
+.rightReminder {
 	width: 49%;
 	height: 99%;
 	background-color: #aea08e;
-	/*background-color: #f25c54;*/
-	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
@@ -715,7 +696,7 @@ body {
 	background-image: url('../img/github-reminder-hover.png');
 }
 
-.fifthDescription {
+.descriptionReminder {
 	width: 62%;
 	height: 75%;
 	background-color: transparent;
@@ -726,14 +707,14 @@ body {
 	color: #2c3e50;
 }
 
-.fifthDescriptionP::before {
+.descriptionReminderP::before {
 	content: "L";
 	font-size: 35px;
 	font-weight: bold;
     font-family: 'Eagle Lake', cursive;
 }
 
-.fifthViewMore {
+.viewMoreReminder {
 	width: 50%;
 	height: 22%;
 	border: 0px;
@@ -748,15 +729,10 @@ body {
 	cursor: pointer;	
 }
 
-.fifthViewMore:hover {
-	border-color: #f5f5f5;
-	color: #f5f5f5;
-}
 
+/*SOLEDAD PILLING 6*/
 
-/*SIXTH PILLING*/
-
-.sixthPilling {
+.pillingSoledad {
 	width: 100vw;
 	height: 100vh;
 	background-color: #f5f5f5;
@@ -764,7 +740,7 @@ body {
 }
 
 /*Page de gauche*/
-.sixthLeft {
+.leftSoledad {
 	width: 49%;
 	height: 99%;
 	margin-right: 0.3%;
@@ -777,7 +753,7 @@ body {
 	position: relative;
 }
 
-.sixthHexagon { 
+.hexagonSoledad { 
 	width: 50px; 
 	height: 25px; 
 	background-color: #f5f5f5; 
@@ -792,11 +768,11 @@ body {
 	padding-top: 3px;
 }
 
-.sixthHexagon:hover {
+.hexagonSoledad:hover {
 	opacity: 0.7;
 } 
 
-.sixthHexagon:before { 
+.hexagonSoledad:before { 
 	content: ""; 
 	position: absolute; 
 	top: -12px; 
@@ -808,7 +784,7 @@ body {
 	border-bottom: 12.5px solid #f5f5f5; 
 } 
 
-.sixthHexagon:after { 
+.hexagonSoledad:after { 
 	content: ""; 
 	position: absolute; 
 	bottom: -12.5px; 
@@ -820,7 +796,7 @@ body {
 	border-top: 12.5px solid #f5f5f5; 
 }
 
-.sixthProjectTitle {
+.projectTitleSoledad {
 	width: 25%;
 	height: 25%;
 	background-color: transparent;
@@ -834,15 +810,7 @@ body {
 	margin-left: 39.5%;
 }
 
-.sixthProjectFilter {
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	opacity: 0.7;
-	position: absolute;
-}
-
-.sixthProjectSubtitle {
+.projectSubtitleSoledad {
 	color: #f5f5f5;
 	width: 60%;
     font-family: 'Poiret One', cursive;
@@ -853,19 +821,18 @@ body {
 }
 
 /*Page de droite*/
-.sixthRight {
+.rightSoledad {
 	width: 49%;
 	height: 99%;
 	background-color: #848383;
-	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
-.github {
+.githubSoledad {
 	width: 30px;
 	height: 30px;
 	border: 0px;
-	background-image: url('../img/github-sign.svg');
+	background-image: url('../img/github-soledad.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -876,40 +843,13 @@ body {
 	display: flex;
 }
 
-.sixthmenu {
-	width: 50px;
-	height: 50px;
-	border: 3px solid #2c3e50;
-	border-radius: 50%;
-	margin-top: 5%;
-	margin-left: 85%;
+.githubSoledad:hover {
+	background-image: url('../img/github-soledad-hover.png');
+	background-color: #292929; 
+	border-radius: 6px;
 }
 
-.sixthmenuFirstLine {
-	width: 29px;
-	height: 3px;
-	background-color: #2c3e50;
-	margin-top: 28%;
-	margin-left: 19%;
-}
-
-.sixthmenuSecondLine {
-	width: 29px;
-	height: 3px;
-	background-color: #2c3e50;
-	margin-top: 14%;
-	margin-left: 19%;
-}
-
-.sixthmenuThirdLine {
-	width: 29px;
-	height: 3px;
-	background-color: #2c3e50;
-	margin-top: 14%;
-	margin-left: 19%;
-}
-
-.sixthDescription {
+.descriptionSoledad {
 	width: 62%;
 	height: 75%;
 	background-color: transparent;
@@ -917,17 +857,17 @@ body {
 	margin-left: 20%;
 	font-size: 18px;
 	line-height: 28px;
-	color: #2c3e50;
+	color: #292929;
 }
 
-.sixthDescriptionP::before {
+.descriptionSoledadP::before {
 	content: "L";
 	font-size: 35px;
 	font-weight: bold;
     font-family: 'Eagle Lake', cursive;
 }
 
-.sixthViewMore {
+.viewMoreSoledad {
 	width: 50%;
 	height: 22%	;
 	border: 0px;
@@ -942,15 +882,11 @@ body {
 	cursor: pointer;	
 }
 
-.sixthViewMore:hover {
-	border-color: #f5f5f5;
-	color: #f5f5f5;
-}
 
 
-/*SCUBA COURSE SEVENTH PILLING*/
+/*SCUBA COURSE PILLING 7*/
 
-.seventhPilling {
+.pillingScuba {
 	width: 100vw;
 	height: 100vh;
 	background-color: #f5f5f5;
@@ -958,7 +894,7 @@ body {
 }
 
 /*Page de gauche*/
-.seventhLeft {
+.leftScuba {
 	width: 49%;
 	height: 99%;
 	margin-right: 0.3%;
@@ -971,7 +907,7 @@ body {
 	position: relative;
 }
 
-.seventhHexagon { 
+.hexagonScuba { 
 	width: 50px; 
 	height: 25px; 
 	background-color: #f5f5f5; 
@@ -986,13 +922,13 @@ body {
 	padding-top: 3px;
 }
 
-.seventhHexagon:hover {
+.hexagonScuba:hover {
 	opacity: 0.8;
 	background-color: #3d0f9e;
 	color: #f5f5f5;
 } 
 
-.seventhHexagon:before { 
+.hexagonScuba:before { 
 	content: ""; 
 	position: absolute; 
 	top: -12px; 
@@ -1004,11 +940,11 @@ body {
 	border-bottom: 12.5px solid #f5f5f5; 
 } 
 
-.seventhHexagon:hover::before {
+.hexagonScuba:hover::before {
 	border-bottom: 12.5px solid #3d0f9e;	
 }
 
-.seventhHexagon:after { 
+.hexagonScuba:after { 
 	content: ""; 
 	position: absolute; 
 	bottom: -12.5px; 
@@ -1020,11 +956,11 @@ body {
 	border-top: 12.5px solid #f5f5f5; 
 }
 
-.seventhHexagon:hover::after {
+.hexagonScuba:hover::after {
 	border-top: 12.5px solid #3d0f9e;	
 }
 
-.seventhProjectTitle {
+.projectTitleScuba {
 	width: 25%;
 	height: 25%;
 	background-color: transparent;
@@ -1038,15 +974,7 @@ body {
 	margin-left: 39.5%;
 }
 
-.sixthProjectFilter {
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	opacity: 0.7;
-	position: absolute;
-}
-
-.seventhProjectSubtitle {
+.projectSubtitleScuba {
 	color: #f5f5f5;
 	width: 60%;
     font-family: 'Poiret One', cursive;
@@ -1057,7 +985,7 @@ body {
 }
 
 /*Page de droite*/
-.seventhRight {
+.rightScuba {
 	width: 49%;
 	height: 99%;
 	background-color: #f2f2f2;
@@ -1083,7 +1011,7 @@ body {
 	background-image: url('../img/github-scuba-hover.png');
 }
 
-.seventhDescription {
+.descriptionScuba {
 	width: 62%;
 	height: 75%;
 	background-color: transparent;
@@ -1094,14 +1022,14 @@ body {
 	color: #16132b;
 }
 
-.seventhDescriptionP::before {
+.descriptionScubaP::before {
 	content: "L";
 	font-size: 35px;
 	font-weight: bold;
     font-family: 'Eagle Lake', cursive;
 }
 
-.seventhViewMore {
+.viewMoreScuba {
 	width: 50%;
 	height: 22%	;
 	border: 0px;
@@ -1114,15 +1042,10 @@ body {
 	cursor: pointer;	
 }
 
-.seventhViewMore:hover {
-	border-color: #f5f5f5;
-	color: #f5f5f5;
-}
 
+/*APEX PILLING 8*/
 
-/*HEIGHTH PILLING*/
-
-.heighthPilling {
+.pillingApex {
 	width: 100vw;
 	height: 100vh;
 	background-color: #f5f5f5;
@@ -1130,7 +1053,7 @@ body {
 }
 
 /*Page de gauche*/
-.heighthLeft {
+.leftApex {
 	width: 49%;
 	height: 99%;
 	margin-right: 0.3%;
@@ -1143,7 +1066,7 @@ body {
 	position: relative;
 }
 
-.heighthHexagon { 
+.hexagonApex { 
 	width: 50px; 
 	height: 25px; 
 	background-color: #f5f5f5; 
@@ -1158,11 +1081,11 @@ body {
 	padding-top: 3px;
 }
 
-.heighthHexagon:hover {
+.hexagonApex:hover {
 	opacity: 0.7;
 } 
 
-.heighthHexagon:before { 
+.hexagonApex:before { 
 	content: ""; 
 	position: absolute; 
 	top: -12px; 
@@ -1174,7 +1097,7 @@ body {
 	border-bottom: 12.5px solid #f5f5f5; 
 } 
 
-.heighthHexagon:after { 
+.hexagonApex:after { 
 	content: ""; 
 	position: absolute; 
 	bottom: -12.5px; 
@@ -1186,7 +1109,7 @@ body {
 	border-top: 12.5px solid #f5f5f5; 
 }
 
-.heighthProjectTitle {
+.projectTitleApex {
 	width: 25%;
 	height: 25%;
 	background-color: transparent;
@@ -1200,15 +1123,7 @@ body {
 	margin-left: 39.5%;
 }
 
-.sixthProjectFilter {
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	opacity: 0.7;
-	position: absolute;
-}
-
-.heighthProjectSubtitle {
+.projectSubtitleApex {
 	color: #f5f5f5;
 	width: 60%;
     font-family: 'Poiret One', cursive;
@@ -1219,16 +1134,14 @@ body {
 }
 
 /*Page de droite*/
-.heighthRight {
+.rightApex {
 	width: 49%;
 	height: 99%;
 	background-color: #a9a9a2;
-	/*background-color: #5d5b58;*/
-	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
-.github {
+.githubApex {
 	width: 30px;
 	height: 30px;
 	border: 0px;
@@ -1243,7 +1156,7 @@ body {
 	display: flex;
 }
 
-.heighthDescription {
+.descriptionApex {
 	width: 62%;
 	height: 75%;
 	background-color: transparent;
@@ -1254,14 +1167,14 @@ body {
 	color: #2c3e50;
 }
 
-.heighthDescriptionP::before {
+.descriptionApexP::before {
 	content: "L";
 	font-size: 35px;
 	font-weight: bold;
     font-family: 'Eagle Lake', cursive;
 }
 
-.heighthViewMore {
+.viewMoreApex {
 	width: 54%;
 	height: 22%	;
 	border: 0px;
@@ -1276,15 +1189,11 @@ body {
 	cursor: pointer;	
 }
 
-.heighthViewMore:hover {
-	border-color: #f5f5f5;
-	color: #f5f5f5;
-}
 
 
-/*NINETH PILLING*/
+/*SYRIA PILLING 9*/
 
-.ninethPilling {
+.pillingSyria {
 	width: 100vw;
 	height: 100vh;
 	background-color: #f5f5f5;
@@ -1292,7 +1201,7 @@ body {
 }
 
 /*Page de gauche*/
-.ninethLeft {
+.leftSyria {
 	width: 49%;
 	height: 99%;
 	margin-right: 0.3%;
@@ -1305,7 +1214,7 @@ body {
 	position: relative;
 }
 
-.ninethHexagon { 
+.hexagonSyria { 
 	width: 50px; 
 	height: 25px; 
 	background-color: #f5f5f5; 
@@ -1320,11 +1229,11 @@ body {
 	padding-top: 3px;
 }
 
-.ninethHexagon:hover {
+.hexagonSyria:hover {
 	opacity: 0.7;
 } 
 
-.ninethHexagon:before { 
+.hexagonSyria:before { 
 	content: ""; 
 	position: absolute; 
 	top: -12px; 
@@ -1336,7 +1245,7 @@ body {
 	border-bottom: 12.5px solid #f5f5f5; 
 } 
 
-.ninethHexagon:after { 
+.hexagonSyria:after { 
 	content: ""; 
 	position: absolute; 
 	bottom: -12.5px; 
@@ -1348,7 +1257,7 @@ body {
 	border-top: 12.5px solid #f5f5f5; 
 }
 
-.ninethProjectTitle {
+.projectTitleSyria {
 	width: 25%;
 	height: 25%;
 	background-color: transparent;
@@ -1362,15 +1271,7 @@ body {
 	margin-left: 39.5%;
 }
 
-.sixthProjectFilter {
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	opacity: 0.7;
-	position: absolute;
-}
-
-.ninethProjectSubtitle {
+.projectSubtitleSyria {
 	color: #f5f5f5;
 	width: 60%;
     font-family: 'Poiret One', cursive;
@@ -1381,16 +1282,14 @@ body {
 }
 
 /*Page de droite*/
-.ninethRight {
+.rightSyria {
 	width: 49%;
 	height: 99%;
 	background-color: #616767;
-	/*background-color: #b2b3b0;*/
-	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
-.github {
+.githubSyria {
 	width: 30px;
 	height: 30px;
 	border: 0px;
@@ -1405,7 +1304,7 @@ body {
 	display: flex;
 }
 
-.ninethDescription {
+.descriptionSyria {
 	width: 62%;
 	height: 75%;
 	background-color: transparent;
@@ -1416,14 +1315,14 @@ body {
 	color: #2c3e50;
 }
 
-.ninethDescriptionP::before {
+.descriptionSyriaP::before {
 	content: "L";
 	font-size: 35px;
 	font-weight: bold;
     font-family: 'Eagle Lake', cursive;
 }
 
-.ninethViewMore {
+.viewMoreSyria {
 	width: 54%;
 	height: 22%	;
 	border: 0px;
@@ -1438,15 +1337,10 @@ body {
 	cursor: pointer;	
 }
 
-.ninethViewMore:hover {
-	border-color: #f5f5f5;
-	color: #f5f5f5;
-}
 
+/*123 VETO PILLING 10*/
 
-/*TENTH PILLING*/
-
-.tenthPilling {
+.pillingVeto {
 	width: 100vw;
 	height: 100vh;
 	background-color: #f5f5f5;
@@ -1454,7 +1348,7 @@ body {
 }
 
 /*Page de gauche*/
-.tenthLeft {
+.leftVeto {
 	width: 49%;
 	height: 99%;
 	margin-right: 0.3%;
@@ -1467,7 +1361,7 @@ body {
 	position: relative;
 }
 
-.tenthHexagon { 
+.hexagonVeto { 
 	width: 50px; 
 	height: 25px; 
 	background-color: #f5f5f5; 
@@ -1482,11 +1376,11 @@ body {
 	padding-top: 3px;
 }
 
-.tenthHexagon:hover {
+.hexagonVeto:hover {
 	opacity: 0.7;
 } 
 
-.tenthHexagon:before { 
+.hexagonVeto:before { 
 	content: ""; 
 	position: absolute; 
 	top: -12px; 
@@ -1498,7 +1392,7 @@ body {
 	border-bottom: 12.5px solid #f5f5f5; 
 } 
 
-.tenthHexagon:after { 
+.hexagonVeto:after { 
 	content: ""; 
 	position: absolute; 
 	bottom: -12.5px; 
@@ -1510,7 +1404,7 @@ body {
 	border-top: 12.5px solid #f5f5f5; 
 }
 
-.tenthProjectTitle {
+.projectTitleVeto {
 	width: 25%;
 	height: 25%;
 	background-color: transparent;
@@ -1524,15 +1418,7 @@ body {
 	margin-left: 39.5%;
 }
 
-.sixthProjectFilter {
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	opacity: 0.7;
-	position: absolute;
-}
-
-.tenthProjectSubtitle {
+.projectSubtitleVeto {
 	color: #f5f5f5;
 	width: 60%;
     font-family: 'Poiret One', cursive;
@@ -1543,18 +1429,14 @@ body {
 }
 
 /*Page de droite*/
-.tenthRight {
+.rightVeto {
 	width: 49%;
 	height: 99%;
 	background-color: #596b5e;
-	/*background-color: #f7fafb;*/
-	/*background-color: #d39f18;*/
-	/*background-color: #bdb491;*/
-	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
-.github {
+.githubVeto {
 	width: 30px;
 	height: 30px;
 	border: 0px;
@@ -1569,7 +1451,7 @@ body {
 	display: flex;
 }
 
-.tenthDescription {
+.descriptionVeto {
 	width: 62%;
 	height: 75%;
 	background-color: transparent;
@@ -1580,24 +1462,14 @@ body {
 	color: #2c3e50;
 }
 
-.tenthDescriptionP::before {
+.descriptionVetoP::before {
 	content: "L";
 	font-size: 35px;
 	font-weight: bold;
     font-family: 'Eagle Lake', cursive;
 }
 
-
-/*ELEVENTH PILLING*/
-
-.eleventhPilling {
-	width: 100vw;
-	height: 100vh;
-	background-color: #f5f5f5;
-	display: flex;
-}
-
-.tenthViewMore {
+.viewMoreVeto {
 	width: 50%;
 	height: 22%	;
 	border: 0px;
@@ -1612,13 +1484,18 @@ body {
 	cursor: pointer;	
 }
 
-.tenthViewMore:hover {
-	border-color: #f5f5f5;
-	color: #f5f5f5;
+
+/*BUKOWSKI PILLING 11*/
+
+.pillingBukowski {
+	width: 100vw;
+	height: 100vh;
+	background-color: #f5f5f5;
+	display: flex;
 }
 
 /*Page de gauche*/
-.eleventhLeft {
+.leftBukowski {
 	width: 49%;
 	height: 99%;
 	margin-right: 0.3%;
@@ -1631,7 +1508,7 @@ body {
 	position: relative;
 }
 
-.eleventhHexagon { 
+.hexagonBukowski { 
 	width: 50px; 
 	height: 25px; 
 	background-color: #f5f5f5; 
@@ -1646,11 +1523,11 @@ body {
 	padding-top: 3px;
 }
 
-.eleventhHexagon:hover {
+.hexagonBukowski:hover {
 	opacity: 0.7;
 } 
 
-.eleventhHexagon:before { 
+.hexagonBukowski:before { 
 	content: ""; 
 	position: absolute; 
 	top: -12px; 
@@ -1662,7 +1539,7 @@ body {
 	border-bottom: 12.5px solid #f5f5f5; 
 } 
 
-.eleventhHexagon:after { 
+.hexagonBukowski:after { 
 	content: ""; 
 	position: absolute; 
 	bottom: -12.5px; 
@@ -1674,7 +1551,7 @@ body {
 	border-top: 12.5px solid #f5f5f5; 
 }
 
-.eleventhProjectTitle {
+.projectTitleBukowski {
 	width: 25%;
 	height: 25%;
 	background-color: transparent;
@@ -1688,15 +1565,15 @@ body {
 	margin-left: 39.5%;
 }
 
-.sixthProjectFilter {
+/*.sixthProjectFilter {
 	width: 100%;
 	height: 100%;
 	background-color: black;
 	opacity: 0.7;
 	position: absolute;
-}
+}*/
 
-.eleventhProjectSubtitle {
+.projectSubtitleBukowski {
 	color: #f5f5f5;
 	width: 60%;
     font-family: 'Poiret One', cursive;
@@ -1707,16 +1584,14 @@ body {
 }
 
 /*Page de droite*/
-.eleventhRight {
+.rightBukowski {
 	width: 49%;
 	height: 99%;
-	/*background-color: #38414d;*/
 	background-color: #828487;
-	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
-.github {
+.githubBukowski {
 	width: 30px;
 	height: 30px;
 	border: 0px;
@@ -1731,7 +1606,7 @@ body {
 	display: flex;
 }
 
-.eleventhDescription {
+.descriptionBukowski {
 	width: 62%;
 	height: 75%;
 	background-color: transparent;
@@ -1742,14 +1617,14 @@ body {
 	color: #2c3e50;
 }
 
-.eleventhDescriptionP::before {
+.descriptionBukowskiP::before {
 	content: "L";
 	font-size: 35px;
 	font-weight: bold;
     font-family: 'Eagle Lake', cursive;
 }
 
-.eleventhViewMore {
+.viewMoreBukowski {
 	width: 50%;
 	height: 20%	;
 	border: 0px;
@@ -1764,44 +1639,18 @@ body {
 	cursor: pointer;	
 }
 
-.eleventhViewMore:hover {
-	border-color: #f5f5f5;
-	color: #f5f5f5;
-}
 
+/*MERVEILLES PILLING 12*/
 
-
-/*TWELVETH PILLING*/
-
-.twelvethPilling {
+.pillingMerveilles {
 	width: 100vw;
 	height: 100vh;
 	background-color: #f5f5f5;
 	display: flex;
 }
 
-.twelvethViewMore {
-	width: 50%;
-	height: 22%	;
-	border: 0px;
-	background-image: url('../img/123veto.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	color: #2c3e50;
-	font-size: 17px;
-	margin-left: 28%;
-	margin-top: 4%;
-	cursor: pointer;	
-}
-
-.twelvethViewMore:hover {
-	border-color: #f5f5f5;
-	color: #f5f5f5;
-}
-
 /*Page de gauche*/
-.twelvethLeft {
+.leftMerveilles {
 	width: 49%;
 	height: 99%;
 	margin-right: 0.3%;
@@ -1814,7 +1663,7 @@ body {
 	position: relative;
 }
 
-.twelvethHexagon { 
+.hexagonMerveilles { 
 	width: 50px; 
 	height: 25px; 
 	background-color: #f5f5f5; 
@@ -1829,11 +1678,11 @@ body {
 	padding-top: 3px;
 }
 
-.twelvethHexagon:hover {
+.hexagonMerveilles:hover {
 	opacity: 0.7;
 } 
 
-.twelvethHexagon:before { 
+.hexagonMerveilles:before { 
 	content: ""; 
 	position: absolute; 
 	top: -12px; 
@@ -1845,7 +1694,7 @@ body {
 	border-bottom: 12.5px solid #f5f5f5; 
 } 
 
-.twelvethHexagon:after { 
+.hexagonMerveilles:after { 
 	content: ""; 
 	position: absolute; 
 	bottom: -12.5px; 
@@ -1857,7 +1706,7 @@ body {
 	border-top: 12.5px solid #f5f5f5; 
 }
 
-.twelvethProjectTitle {
+.projectTitleMerveilles {
 	width: 25%;
 	height: 25%;
 	background-color: transparent;
@@ -1871,15 +1720,7 @@ body {
 	margin-left: 39.5%;
 }
 
-.sixthProjectFilter {
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	opacity: 0.7;
-	position: absolute;
-}
-
-.twelvethProjectSubtitle {
+.projectSubtitleMerveilles {
 	color: #f5f5f5;
 	width: 60%;
     font-family: 'Poiret One', cursive;
@@ -1890,15 +1731,14 @@ body {
 }
 
 /*Page de droite*/
-.twelvethRight {
+.rightMerveilles {
 	width: 49%;
 	height: 99%;
 	background-color: #fffaeb;
-	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
-.github {
+.githubMerveilles {
 	width: 30px;
 	height: 30px;
 	border: 0px;
@@ -1913,40 +1753,7 @@ body {
 	display: flex;
 }
 
-.twelvethmenu {
-	width: 50px;
-	height: 50px;
-	border: 3px solid #2c3e50;
-	border-radius: 50%;
-	margin-top: 5%;
-	margin-left: 85%;
-}
-
-.twelvethmenuFirstLine {
-	width: 29px;
-	height: 3px;
-	background-color: #2c3e50;
-	margin-top: 28%;
-	margin-left: 19%;
-}
-
-.twelvethmenuSecondLine {
-	width: 29px;
-	height: 3px;
-	background-color: #2c3e50;
-	margin-top: 14%;
-	margin-left: 19%;
-}
-
-.twelvethmenuThirdLine {
-	width: 29px;
-	height: 3px;
-	background-color: #2c3e50;
-	margin-top: 14%;
-	margin-left: 19%;
-}
-
-.twelvethDescription {
+.descriptionMerveilles {
 	width: 62%;
 	height: 75%;
 	background-color: transparent;
@@ -1957,14 +1764,14 @@ body {
 	color: #2c3e50;
 }
 
-.twelvethDescriptionP::before {
+.descriptionMerveillesP::before {
 	content: "L";
 	font-size: 35px;
 	font-weight: bold;
     font-family: 'Eagle Lake', cursive;
 }
 
-.twelvethViewMore {
+.viewMoreMerveilles {
 	width: 50%;
 	height: 20%	;
 	border: 0px;
@@ -1979,43 +1786,20 @@ body {
 	cursor: pointer;	
 }
 
-.twelvethViewMore:hover {
-	border-color: #f5f5f5;
-	color: #f5f5f5;
-}
 
 
-/*THIRTEENTH PILLING*/
+/*NEON PILLING 13*/
 
-.thirteenthPilling {
+.pillingNeon {
 	width: 100vw;
 	height: 100vh;
 	background-color: #f5f5f5;
 	display: flex;
 }
 
-.thirteenthViewMore {
-	width: 50%;
-	height: 22%	;
-	border: 0px;
-	background-image: url('../img/123veto.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	color: #2c3e50;
-	font-size: 17px;
-	margin-left: 28%;
-	margin-top: 4%;
-	cursor: pointer;	
-}
-
-.thirteenthViewMore:hover {
-	border-color: #f5f5f5;
-	color: #f5f5f5;
-}
 
 /*Page de gauche*/
-.thirteenthLeft {
+.leftNeon {
 	width: 49%;
 	height: 99%;
 	margin-right: 0.3%;
@@ -2028,7 +1812,7 @@ body {
 	position: relative;
 }
 
-.thirteenthHexagon { 
+.hexagonNeon { 
 	width: 50px; 
 	height: 25px; 
 	background-color: #f5f5f5; 
@@ -2043,11 +1827,11 @@ body {
 	padding-top: 3px;
 }
 
-.thirteenthHexagon:hover {
+.hexagonNeon:hover {
 	opacity: 0.7;
 } 
 
-.thirteenthHexagon:before { 
+.hexagonNeon:before { 
 	content: ""; 
 	position: absolute; 
 	top: -12px; 
@@ -2059,7 +1843,7 @@ body {
 	border-bottom: 12.5px solid #f5f5f5; 
 } 
 
-.thirteenthHexagon:after { 
+.hexagonNeon:after { 
 	content: ""; 
 	position: absolute; 
 	bottom: -12.5px; 
@@ -2071,7 +1855,7 @@ body {
 	border-top: 12.5px solid #f5f5f5; 
 }
 
-.thirteenthProjectTitle {
+.projectTitleNeon {
 	width: 25%;
 	height: 25%;
 	background-color: transparent;
@@ -2085,15 +1869,7 @@ body {
 	margin-left: 39.5%;
 }
 
-.sixthProjectFilter {
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	opacity: 0.7;
-	position: absolute;
-}
-
-.thirteenthProjectSubtitle {
+.projectSubtitleNeon {
 	color: #f5f5f5;
 	width: 60%;
     font-family: 'Poiret One', cursive;
@@ -2104,15 +1880,14 @@ body {
 }
 
 /*Page de droite*/
-.thirteenthRight {
+.rightNeon {
 	width: 49%;
 	height: 99%;
 	background-color: #d38887;
-	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
-.github {
+.githubNeon {
 	width: 30px;
 	height: 30px;
 	border: 0px;
@@ -2127,7 +1902,7 @@ body {
 	display: flex;
 }
 
-.thirteenthDescription {
+.descriptionNeon {
 	width: 62%;
 	height: 75%;
 	background-color: transparent;
@@ -2136,18 +1911,16 @@ body {
 	font-size: 18px;
 	line-height: 28px;
 	color: #0c0c0d;
-	/*color: #3e0308;*/
-	/*color: #2c3e50;*/
 }
 
-.thirteenthDescriptionP::before {
+.descriptionNeonP::before {
 	content: "L";
 	font-size: 35px;
 	font-weight: bold;
     font-family: 'Eagle Lake', cursive;
 }
 
-.thirteenthViewMore {
+.viewMoreNeon {
 	width: 50%;
 	height: 20%	;
 	border: 0px;
@@ -2162,43 +1935,19 @@ body {
 	cursor: pointer;	
 }
 
-.thirteenthViewMore:hover {
-	border-color: #f5f5f5;
-	color: #f5f5f5;
-}
 
 
-/*FOURTEENTH PILLING*/
+/*MASSIVELY PILLING 14*/
 
-.fourteenthPilling {
+.pillingMassively {
 	width: 100vw;
 	height: 100vh;
 	background-color: #f5f5f5;
 	display: flex;
 }
 
-.fourteenthViewMore {
-	width: 50%;
-	height: 22%	;
-	border: 0px;
-	background-image: url('../img/123veto.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	color: #2c3e50;
-	font-size: 17px;
-	margin-left: 28%;
-	margin-top: 4%;
-	cursor: pointer;	
-}
-
-.fourteenthViewMore:hover {
-	border-color: #f5f5f5;
-	color: #f5f5f5;
-}
-
 /*Page de gauche*/
-.fourteenthLeft {
+.leftMassively {
 	width: 49%;
 	height: 99%;
 	margin-right: 0.3%;
@@ -2211,7 +1960,7 @@ body {
 	position: relative;
 }
 
-.fourteenthHexagon { 
+.hexagonMassively { 
 	width: 50px; 
 	height: 25px; 
 	background-color: #f5f5f5; 
@@ -2226,11 +1975,12 @@ body {
 	padding-top: 3px;
 }
 
-.fourteenthHexagon:hover {
-	opacity: 0.7;
+.hexagonMassively:hover {
+	background-color: #d2782c;
+	color: #100e16;
 } 
 
-.fourteenthHexagon:before { 
+.hexagonMassively:before { 
 	content: ""; 
 	position: absolute; 
 	top: -12px; 
@@ -2242,7 +1992,11 @@ body {
 	border-bottom: 12.5px solid #f5f5f5; 
 } 
 
-.fourteenthHexagon:after { 
+.hexagonMassively:hover::before {
+	border-bottom: 12.5px solid #d2782c; 
+}
+
+.hexagonMassively:after { 
 	content: ""; 
 	position: absolute; 
 	bottom: -12.5px; 
@@ -2254,7 +2008,12 @@ body {
 	border-top: 12.5px solid #f5f5f5; 
 }
 
-.fourteenthProjectTitle {
+.hexagonMassively:hover::after {
+	border-top: 12.5px solid #d2782c; 
+}
+
+
+.projectTitleMassively {
 	width: 25%;
 	height: 25%;
 	background-color: transparent;
@@ -2268,15 +2027,15 @@ body {
 	margin-left: 39.5%;
 }
 
-.sixthProjectFilter {
+/*.sixthProjectFilter {
 	width: 100%;
 	height: 100%;
 	background-color: black;
 	opacity: 0.7;
 	position: absolute;
-}
+}*/
 
-.fourteenthProjectSubtitle {
+.projectSubtitleMassively {
 	color: #f5f5f5;
 	width: 60%;
     font-family: 'Poiret One', cursive;
@@ -2287,20 +2046,18 @@ body {
 }
 
 /*Page de droite*/
-.fourteenthRight {
+.rightMassively {
 	width: 49%;
 	height: 99%;
 	background-color: #534341;
-	/*background-color: #d2782c;*/
-	/*background-color: #77919E;*/
 	margin-top: 1%;
 }
 
-.github {
+.githubMassively {
 	width: 30px;
 	height: 30px;
 	border: 0px;
-	background-image: url('../img/github-sign.svg');
+	background-image: url('../img/github-massively.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -2311,7 +2068,11 @@ body {
 	display: flex;
 }
 
-.fourteenthDescription {
+.githubMassively:hover {
+	background-image: url('../img/github-massively-hover.png');
+}
+
+.descriptionMassively {
 	width: 62%;
 	height: 75%;
 	background-color: transparent;
@@ -2320,17 +2081,16 @@ body {
 	font-size: 18px;
 	line-height: 28px;
 	color: #100e16;
-	/*color: #2c3e50;*/
 }
 
-.fourteenthDescriptionP::before {
+.descriptionMassivelyP::before {
 	content: "L";
 	font-size: 35px;
 	font-weight: bold;
     font-family: 'Eagle Lake', cursive;
 }
 
-.fourteenthViewMore {
+.viewMoreMassively {
 	width: 50%;
 	height: 20%	;
 	border: 0px;
@@ -2343,9 +2103,4 @@ body {
 	margin-left: 30%;
 	margin-top: 4%;
 	cursor: pointer;	
-}
-
-.fourteenthViewMore:hover {
-	border-color: #f5f5f5;
-	color: #f5f5f5;
 }
